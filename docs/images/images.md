@@ -30,7 +30,7 @@ fandogh image init --name hello_application
 
 هنگامی که شما در fandogh-cli دستور init را فراخوانی می‌کنید، سمت سرور فندق یک پروژه جدید با نامی که مشخص کرده‌اید `( در این مثال نام پروژه ما hello_application است)` می‌سازد. این پروژه در ابتدا حاوی هیچ ورژنی نبوده و فقط یک نام است که در ادامه از طریق ورژن‌هایی که برای آن می‌سازید، می‌توانید سرویس خود را اجرا کنید. 
 
-![Image Publish](/img/docs/image-publish.svg "Image Publish")
+![Image Publish](/img/docs/Image-Publish.svg "Image Publish")
 
 حال برای آنکه محتویات پوشه ای که داخل آن هستیم برای سرورهای فندق ارسال شود از دستور `image publish` استفاده می کنیم.
 
