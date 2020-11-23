@@ -1,5 +1,5 @@
 kind: ExternalService
-name: docs-v2
+name: docs
 spec:
   image_pull_policy: Always
   port: 80
