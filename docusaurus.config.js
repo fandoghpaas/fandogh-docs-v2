@@ -35,6 +35,78 @@ module.exports = {
       {
         redirects: [
           {
+            to: '/docs/preface/getting-started',
+            from: ['/docs/getting-started.html', '/docs/getting-started']
+          },
+          {
+            to: '/docs/clusters/cluster',
+            from: ['/docs/cluster.html', '/docs/cluster']
+          },
+          {
+            to: '/docs/namespaces/namespaces',
+            from: ['/docs/namespaces.html', '/docs/namespaces']
+          },
+          {
+            to: '/docs/namespaces/team-management',
+            from: ['/docs/team-management.html', '/docs/team-management']
+          },
+          {
+            to: '/docs/plans/resources',
+            from: ['/docs/resources.html', '/docs/resources']
+          },
+          {
+            to: '/docs/images/images',
+            from: ['/docs/images.html', '/docs/images']
+          },
+          {
+            to: '/docs/services/services',
+            from: ['/docs/services.html', '/docs/services']
+          },
+          {
+            to: '/docs/services/service-manifest',
+            from: ['/docs/service-manifest.html', '/docs/service-manifest']
+          },
+          {
+            to: '/docs/services/service-lifecycle-handlers',
+            from: ['/docs/service-lifecycle-handlers.html', '/docs/service-lifecycle-handlers']
+          },
+          {
+            to: '/docs/services/exec',
+            from: ['/docs/exec.html', '/docs/exec']
+          },
+          {
+            to: '/docs/services/rollback',
+            from: ['/docs/rollback.html', '/docs/rollback']
+          },
+          {
+            to: '/docs/source-deployments/source-intro',
+            from: ['/docs/source-intro.html', '/docs/source-intro']
+          },
+          {
+            to: '/docs/source-deployments/source-static',
+            from: ['/docs/source-static.html', '/docs/source-static']
+          },
+          {
+            to: '/docs/source-deployments/source-django',
+            from: ['/docs/source-django.html', '/docs/source-django']
+          },
+          {
+            to: '/docs/source-deployments/source-laravel',
+            from: ['/docs/source-laravel.html', '/docs/source-laravel']
+          },
+          {
+            to: '/docs/source-deployments/source-aspnetcore',
+            from: ['/docs/source-aspnetcore.html', '/docs/source-aspnetcore']
+          },
+          {
+            to: '/docs/source-deployments/source-nodejs',
+            from: ['/docs/source-nodejs.html', '/docs/source-nodejs']
+          },
+          {
+            to: '/docs/source-deployments/source-spring-boot',
+            from: ['/docs/source-spring-boot.html', '/docs/source-spring-boot']
+          },
+          {
             to: '/docs/managed-services/gitlab-managed-service',
             from: ['/docs/gitlab-managed-service.html', '/docs/gitlab-managed-service']
           },
@@ -89,6 +161,46 @@ module.exports = {
           {
             to: '/docs/managed-services/redis-managed-service',
             from: ['/docs/redis-managed-service.html', '/docs/redis-managed-service']
+          },
+          {
+            to: '/docs/domains/custom-domains',
+            from: ['/docs/custom-domains.html', '/docs/custom-domains']
+          },
+          {
+            to: '/docs/domains/ssl-certificate',
+            from: ['/docs/ssl-certificate.html', '/docs/ssl-certificate']
+          },
+          {
+            to: '/docs/secrets/secret',
+            from: ['/docs/secret.html', '/docs/secret']
+          },
+          {
+            to: '/docs/secrets/docker-registry-secret',
+            from: ['/docs/docker-registry-secret.html', '/docs/docker-registry-secret']
+          },
+          {
+            to: '/docs/secrets/environment-secret-secret',
+            from: ['/docs/environment-secret-secret.html', '/docs/environment-secret-secret']
+          },
+          {
+            to: '/docs/volumes/dedicated-volume',
+            from: ['/docs/dedicated-volume.html', '/docs/dedicated-volume']
+          },
+          {
+            to: '/docs/volumes/attach-volume-to-service',
+            from: ['/docs/attach-volume-to-service.html', '/docs/attach-volume-to-service']
+          },
+          {
+            to: '/docs/volumes/volume-browser',
+            from: ['/docs/volume-browser.html', '/docs/volume-browser']
+          },
+          {
+            to: '/docs/volumes/dedicated-volume-expansion',
+            from: ['/docs/dedicated-volume-expansion.html', '/docs/dedicated-volume-expansion']
+          },
+          {
+            to: '/docs/cheatsheets/fandogh-cli-cheat-sheet',
+            from: ['/docs/fandogh-cli-cheat-sheet.html', '/docs/fandogh-cli-cheat-sheet']
           },
         ],
       },
