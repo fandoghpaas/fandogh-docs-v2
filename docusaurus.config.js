@@ -30,6 +30,69 @@ module.exports = {
         sidebarPath: require.resolve('./apiSidebar.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/managed-services/gitlab-managed-service',
+            from: ['/docs/gitlab-managed-service.html', '/docs/gitlab-managed-service']
+          },
+          {
+            to: '/docs/managed-services/gitlab-runner-managed-service',
+            from: ['/docs/gitlab-ruuner-managed-service.html', '/docs/gitlab-ruuner-managed-service']
+          },
+          {
+            to: '/docs/managed-services/elasticsearch-managed-service',
+            from: ['/docs/elasticsearch-managed-service.html', '/docs/elasticsearch-managed-service']
+          },
+          {
+            to: '/docs/managed-services/file-browser-managed-service',
+            from: ['/docs/file-browser-managed-service.html', '/docs/file-browser-managed-service']
+          },
+          {
+            to: '/docs/managed-services/kibana-managed-service',
+            from: ['/docs/kibana-managed-service.html', '/docs/kibana-managed-service']
+          },
+          {
+            to: '/docs/managed-services/managed-services-intro',
+            from: ['/docs/managed-services-intro.html', '/docs/managed-services-intro']
+          },
+          {
+            to: '/docs/managed-services/minio-managed-service',
+            from: ['/docs/minio-managed-service.html', '/docs/minio-managed-service']
+          },
+          {
+            to: '/docs/managed-services/mongodb-managed-service',
+            from: ['/docs/mongodb-managed-service.html', '/docs/mongodb-managed-service']
+          },
+          {
+            to: '/docs/managed-services/mssql-managed-service',
+            from: ['/docs/mssql-managed-service.html', '/docs/mssql-managed-service']
+          },
+          {
+            to: '/docs/managed-services/mysql-managed-service',
+            from: ['/docs/mysql-managed-service.html', '/docs/mysql-managed-service']
+          },
+          {
+            to: '/docs/managed-services/postgresql-managed-service',
+            from: ['/docs/postgresql-managed-service.html', '/docs/postgresql-managed-service']
+          },
+          {
+            to: '/docs/managed-services/proxy-managed-service',
+            from: ['/docs/proxy-managed-service.html', '/docs/proxy-managed-service']
+          },
+          {
+            to: '/docs/managed-services/rabbitmq-managed-service',
+            from: ['/docs/rabbitmq-managed-service.html', '/docs/rabbitmq-managed-service']
+          },
+          {
+            to: '/docs/managed-services/redis-managed-service',
+            from: ['/docs/redis-managed-service.html', '/docs/redis-managed-service']
+          },
+        ],
+      },
+    ],
   ],
   themeConfig: {
     hideableSidebar: true,
