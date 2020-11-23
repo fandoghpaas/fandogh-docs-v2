@@ -1,0 +1,20 @@
+branches:
+  only:
+  - main
+language: python
+node_js:
+  - 10
+cache: yarn
+python:
+  - "3.5" 
+# command to install dependencies
+install:
+  - pip install fandogh-cli --upgrade
+# command to run tests
+script:
+  - echo $TRAVIS_COMMIT
+  - COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
+  - fandogh namespace active --name default
+  - yarn
+  - yarn build
+  - fandogh source run
