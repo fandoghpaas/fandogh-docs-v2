@@ -112,7 +112,7 @@ module.exports = {
           },
           {
             to: '/docs/managed-services/gitlab-runner-managed-service',
-            from: ['/docs/gitlab-ruuner-managed-service.html', '/docs/gitlab-ruuner-managed-service']
+            from: ['/docs/gitlab-runner-managed-service.html', '/docs/gitlab-runner-managed-service']
           },
           {
             to: '/docs/managed-services/elasticsearch-managed-service',
