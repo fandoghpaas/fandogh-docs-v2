@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="794px" height="230px" viewBox="0 0 794 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>exec</title>
+    <defs>
+        <linearGradient x1="0.25781251%" y1="49.9380967%" x2="133.446935%" y2="57.0342996%" id="linearGradient-1">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="157.069477%" y1="152.733972%" x2="-98.2777467%" y2="-91.3759034%" id="linearGradient-2">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="40.5366666%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-12.4%" y="-8.2%" width="124.7%" height="116.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="-38.0898965%" y1="50%" x2="319.792682%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-12.4%" y="-8.2%" width="124.7%" height="116.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="312.727587%" y1="49.9999944%" x2="-29.044303%" y2="49.9999944%" id="linearGradient-6">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="exec" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="EXEC" fill="url(#linearGradient-1)" font-family="Futura-Bold, Futura" font-size="80" font-weight="bold">
+            <tspan x="50.06" y="148">EXEC</tspan>
+        </text>
+        <g id="Group-2-Copy-2" transform="translate(485.000000, 42.000000)">
+            <circle id="Oval-Copy-4" fill="url(#linearGradient-2)" transform="translate(134.722335, 73.822492) rotate(-225.000000) translate(-134.722335, -73.822492) " cx="134.722335" cy="73.8224918" r="35.2185516"></circle>
+            <g id="Group-6" fill="url(#linearGradient-4)" filter="url(#filter-3)">
+                <path d="M83.0196348,1.4238158 L83.2076406,1.58846713 L94.9229776,12.3650652 C96.8974755,14.1813485 96.9515491,17.0878173 95.0959259,18.9692334 L94.9219723,19.1373885 L49.6779309,60.8462501 L89.1117777,60.8469288 C86.3012973,68.5365627 86.2311344,76.9497094 88.9012889,84.6754679 L49.4899309,84.6752501 L94.9219723,126.557324 C96.8989158,128.379827 96.9520587,131.284766 95.0968863,133.161889 L94.9229776,133.329647 L83.2076406,144.106245 C81.2349559,145.92086 78.0799665,145.969683 76.0353401,144.264407 L75.8469793,144.099399 L2.07229287,76.2362084 C0.0965120687,74.418745 0.0393497348,71.5075553 1.89804299,69.6266023 L2.07229287,69.4585037 L75.8469793,1.59531335 C77.8209458,-0.220481072 80.9785962,-0.277516119 83.0196348,1.4238158 Z" id="Combined-Shape"></path>
+            </g>
+            <g id="Group-7-Copy-2" transform="translate(210.500000, 74.000000) rotate(-180.000000) translate(-210.500000, -74.000000) translate(162.000000, 1.000000)" fill="url(#linearGradient-6)">
+                <g id="Group-6" filter="url(#filter-5)" transform="translate(0.000000, 0.000000)">
+                    <path d="M94.9229776,133.329647 C96.9535129,131.461816 96.9588231,128.435054 94.9219723,126.557324 L36.6605904,72.8473561 L94.9219723,19.1373885 C96.9530628,17.2649681 96.9573088,14.2363873 94.9229776,12.3650652 L83.2076406,1.58846713 C81.1771053,-0.279363271 77.8826323,-0.277224648 75.8469793,1.59531335 L2.07229287,69.4585037 C0.0376471677,71.3301152 0.0366399232,74.3636704 2.07229287,76.2362084 L75.8469793,144.099399 C77.881625,145.97101 81.1733095,145.977567 83.2076406,144.106245 L94.9229776,133.329647 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1355px" height="728px" viewBox="0 0 1355 728" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>volume_creation</title>
+    <defs>
+        <filter x="-16.4%" y="-3.8%" width="132.9%" height="107.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-16.4%" y="-3.8%" width="132.9%" height="107.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-16.4%" y="-3.8%" width="132.9%" height="107.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="112" height="91" rx="10"></rect>
+        <filter x="-6.2%" y="-5.5%" width="112.5%" height="115.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="0" width="112" height="91" rx="10"></rect>
+        <filter x="-6.2%" y="-5.5%" width="112.5%" height="115.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="112" height="91" rx="10"></rect>
+        <filter x="-6.2%" y="-5.5%" width="112.5%" height="115.4%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-10" x="0" y="0" width="112" height="91" rx="10"></rect>
+        <filter x="-6.2%" y="-5.5%" width="112.5%" height="115.4%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="volume_creation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(158.000000, 55.000000)">
+            <g id="Group" transform="translate(0.000000, 344.000000)" fill="#2979FF">
+                <rect id="Rectangle" x="0" y="0" width="242" height="64" rx="5"></rect>
+                <rect id="Rectangle-Copy" x="0" y="70" width="242" height="64" rx="5"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="140" width="242" height="64" rx="5"></rect>
+                <rect id="Rectangle-Copy-3" x="0" y="210" width="242" height="64" rx="5"></rect>
+            </g>
+            <g id="Group-Copy" transform="translate(339.000000, 428.000000)" fill="#2979FF">
+                <rect id="Rectangle" x="0" y="0" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy" x="0" y="32" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="65" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-3" x="0" y="97" width="112" height="30" rx="5"></rect>
+            </g>
+            <g id="Group-Copy-2" transform="translate(499.000000, 428.000000)" fill="#2979FF">
+                <rect id="Rectangle" x="0" y="0" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy" x="0" y="32" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="65" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-3" x="0" y="97" width="112" height="30" rx="5"></rect>
+            </g>
+            <g id="Group-Copy-3" transform="translate(659.000000, 428.000000)" fill="#2979FF">
+                <rect id="Rectangle" x="0" y="0" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy" x="0" y="32" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="65" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-3" x="0" y="97" width="112" height="30" rx="5"></rect>
+            </g>
+            <g id="Group-Copy-4" transform="translate(819.000000, 428.000000)" fill="#2979FF">
+                <rect id="Rectangle" x="0" y="0" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy" x="0" y="32" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-2" x="0" y="65" width="112" height="30" rx="5"></rect>
+                <rect id="Rectangle-Copy-3" x="0" y="97" width="112" height="30" rx="5"></rect>
+            </g>
+            <g id="Group-2" transform="translate(277.000000, 563.000000)">
+                <rect id="Rectangle" stroke="#A5A5A5" stroke-width="9" x="0" y="0" width="762" height="50" rx="25"></rect>
+                <circle id="Oval" fill="#D8D8D8" cx="26" cy="25" r="19"></circle>
+                <circle id="Oval-Copy" fill="#D8D8D8" cx="106" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-3" fill="#D8D8D8" cx="186" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-2" fill="#D8D8D8" cx="266" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-4" fill="#D8D8D8" cx="346" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-5" fill="#D8D8D8" cx="426" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-6" fill="#D8D8D8" cx="506" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-7" fill="#D8D8D8" cx="576" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-8" fill="#D8D8D8" cx="656" cy="25" r="19"></circle>
+                <circle id="Oval-Copy-9" fill="#D8D8D8" cx="736" cy="25" r="19"></circle>
+            </g>
+            <g id="Group-3" filter="url(#filter-1)" transform="translate(4.000000, 0.000000)">
+                <rect id="Rectangle" fill="#FEFEFE" transform="translate(36.500000, 159.000000) rotate(-270.000000) translate(-36.500000, -159.000000) " x="-122" y="123" width="317" height="72" rx="20"></rect>
+                <text id="Vol1-10Gi" transform="translate(36.000000, 159.500000) rotate(-270.000000) translate(-36.000000, -159.500000) " font-family="HelveticaNeue, Helvetica Neue" font-size="50" font-weight="normal" fill="#222222">
+                    <tspan x="-70.975" y="178">Vol1 10Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-3-Copy" filter="url(#filter-2)" transform="translate(84.000000, 0.000000)">
+                <rect id="Rectangle" fill="#FEFEFE" transform="translate(36.500000, 159.000000) rotate(-270.000000) translate(-36.500000, -159.000000) " x="-122" y="123" width="317" height="72" rx="20"></rect>
+                <text id="Vol1-20Gi" transform="translate(36.000000, 159.500000) rotate(-270.000000) translate(-36.000000, -159.500000) " font-family="HelveticaNeue, Helvetica Neue" font-size="50" font-weight="normal" fill="#222222">
+                    <tspan x="-70.975" y="178">Vol1 20Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-3-Copy-2" filter="url(#filter-3)" transform="translate(164.000000, 0.000000)">
+                <rect id="Rectangle" fill="#FEFEFE" transform="translate(36.500000, 159.000000) rotate(-270.000000) translate(-36.500000, -159.000000) " x="-122" y="123" width="317" height="72" rx="20"></rect>
+                <text id="Vol1-30Gi" transform="translate(36.000000, 159.500000) rotate(-270.000000) translate(-36.000000, -159.500000) " font-family="HelveticaNeue, Helvetica Neue" font-size="50" font-weight="normal" fill="#222222">
+                    <tspan x="-70.975" y="178">Vol1 30Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(339.000000, 318.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <text id="Vol1-10Gi" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#222222">
+                    <tspan x="26.88" y="40">Vol1</tspan>
+                    <tspan x="24.105" y="75">10Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-4-Copy" transform="translate(499.000000, 318.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <text id="Vol2-20Gi" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#222222">
+                    <tspan x="26.88" y="40">Vol2</tspan>
+                    <tspan x="24.105" y="75">20Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-4-Copy-2" transform="translate(658.000000, 318.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+                <text id="Vol3-30Gi" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#222222">
+                    <tspan x="26.88" y="40">Vol3</tspan>
+                    <tspan x="24.105" y="75">30Gi</tspan>
+                </text>
+            </g>
+            <g id="Group-4-Copy-3" transform="translate(819.000000, 318.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use fill="#FEFEFE" fill-rule="evenodd" xlink:href="#path-10"></use>
+                </g>
+                <text id="Vol4-40Gi" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#222222">
+                    <tspan x="26.88" y="40">Vol4</tspan>
+                    <tspan x="24.105" y="75">40Gi</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="464px" viewBox="0 0 1241 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Image Init</title>
+    <defs>
+        <filter x="-3.0%" y="-26.1%" width="105.9%" height="152.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="903" y="44" width="252" height="211" rx="4"></rect>
+        <filter x="-2.8%" y="-2.4%" width="105.6%" height="106.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M113,0 C115.209139,-4.05812251e-16 117,1.790861 117,4 L117,159 C117,161.209139 115.209139,163 113,163 L4,163 C1.790861,163 2.705415e-16,161.209139 0,159 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L113,0 Z M108,91 L10,91 C7.790861,91 6,92.790861 6,95 L6,95 L6,151 C6,153.209139 7.790861,155 10,155 L10,155 L108,155 C110.209139,155 112,153.209139 112,151 L112,151 L112,95 C112,92.790861 110.209139,91 108,91 L108,91 Z" id="path-4"></path>
+        <filter x="-6.0%" y="-3.1%" width="112.0%" height="108.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Image-Init" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(43.000000, 86.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(0.000000, 127.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="405" height="46" rx="5"></rect>
+                <text id="fandogh-image-init--" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="12.671875" y="30">fandogh image init --name HelloApplication</tspan>
+                </text>
+            </g>
+            <path id="Line-Copy" d="M542.5,142.5 L556.5,149.5 L542.5,156.5 L542.5,150.5 L428.5,150.5 L428.5,148.5 L542.5,148.5 L542.5,142.5 Z" fill="#B9B9B9" fill-rule="nonzero"></path>
+            <path id="Line-Copy-2" d="M848.5,142.5 L862.5,149.5 L848.5,156.5 L848.5,150.5 L734.5,150.5 L734.5,148.5 L848.5,148.5 L848.5,142.5 Z" fill="#B9B9B9" fill-rule="nonzero"></path>
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <rect stroke="#1A0FC7" stroke-width="2" stroke-linejoin="square" x="904" y="45" width="250" height="209" rx="4"></rect>
+            </g>
+            <text id="Image-Repository-Cre" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#BDBDBD">
+                <tspan x="921.552734" y="289">Image Repository Created</tspan>
+            </text>
+            <g id="Group-2" transform="translate(588.000000, 60.000000)">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#1A0FC7" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <rect id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="2" x="7" y="9" width="104" height="18" rx="4"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="2" x="7" y="37" width="104" height="18" rx="4"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#FFFFFF" stroke-width="2" x="7" y="64" width="104" height="18" rx="4"></rect>
+                <text id="Server" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#BDBDBD">
+                    <tspan x="30.09375" y="191">Server</tspan>
+                </text>
+                <circle id="Oval" fill="#FFFFFF" cx="18" cy="18" r="4"></circle>
+                <circle id="Oval-Copy" fill="#FFFFFF" cx="18" cy="46" r="4"></circle>
+                <circle id="Oval-Copy-2" fill="#FFFFFF" cx="18" cy="73" r="4"></circle>
+            </g>
+            <text id="HelloApplication" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#BDBDBD">
+                <tspan x="957.582031" y="18">HelloApplication</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

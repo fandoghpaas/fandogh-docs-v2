@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="794px" height="244px" viewBox="0 0 794 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>static-website-banner</title>
+    <defs>
+        <linearGradient x1="0.25781251%" y1="49.9961614%" x2="133.446935%" y2="50.4361951%" id="linearGradient-1">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.25781251%" y1="49.9926207%" x2="133.446935%" y2="50.8385409%" id="linearGradient-2">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#51D4EC" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.4%" y="-9.0%" width="112.8%" height="118.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="24.7621669%" x2="100%" y2="74.5261648%" id="linearGradient-4">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#2979FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.9990339%" x2="100%" y2="50.0009388%" id="linearGradient-5">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#2979FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="static-website-banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Source-Deployment" fill="url(#linearGradient-1)" font-family="Futura-Bold, Futura" font-size="44" font-weight="bold">
+            <tspan x="308.772" y="188">Source Deployment</tspan>
+        </text>
+        <text id="Static-Website-Copy" fill="url(#linearGradient-2)" font-family="Futura-Bold, Futura" font-size="60" font-weight="bold">
+            <tspan x="314.04" y="106">Static Website</tspan>
+        </text>
+        <g id="Group-19" filter="url(#filter-3)" transform="translate(26.000000, 33.000000)">
+            <path d="M245,2.84217094e-14 C247.761424,1.31986222e-14 250,2.23857625 250,5 L250.000923,67.1900603 C245.373825,68.5693407 240.277549,68.4916742 235.901612,66.6658536 C227.76519,63.2432961 222.634392,54.998779 223.136501,46.1487921 C223.301761,43.368975 221.270117,40.9520179 218.49867,40.6292413 C211.439603,39.8128062 204.318651,39.7874904 197.238487,40.5729839 C194.498686,40.8753672 192.467042,43.2353637 192.559166,45.98002 C192.867182,54.742808 187.674499,62.8431655 179.618949,66.1426601 C171.893919,69.2979951 161.846809,66.9991785 156.225153,60.8164939 C154.367208,58.7799773 151.258209,58.529632 149.093653,60.2166498 C143.429803,64.6602785 138.278611,69.7487572 133.805337,75.3308944 C132.060613,77.5010223 132.317293,80.6465123 134.369331,82.5135537 C140.946683,88.4698023 143.070451,97.9449492 139.653435,106.092422 C136.39113,113.860158 128.325032,118.866361 119.090861,118.866361 C116.094379,118.77002 113.960062,120.781221 113.632355,123.505484 C112.801132,130.605163 112.791287,137.839157 113.591567,144.996501 C113.888332,147.664506 117.080313,149.643359 119.788469,149.643359 C128.017718,149.433097 135.918557,154.527905 139.2329,162.593102 C141.231858,167.466556 141.243871,172.828111 139.509754,177.61547 L5,177.615572 C2.23857625,177.615572 3.38176876e-16,175.376996 0,172.615572 L0,5 C-3.38176876e-16,2.23857625 2.23857625,2.89289747e-14 5,2.84217094e-14 L245,2.84217094e-14 Z M207.7268,83.2 C225.22639,83.2 240.688462,91.9236528 250.001455,105.259397 L250.001808,164.193697 C246.312313,169.477005 241.657693,174.03644 236.293607,177.616342 L179.160126,177.616431 C165.317827,168.378372 156.2,152.617377 156.2,134.7268 C156.2,106.269334 179.269334,83.2 207.7268,83.2 Z M207.5,101.56 C189.30774,101.56 174.56,116.30774 174.56,134.5 C174.56,152.69226 189.30774,167.44 207.5,167.44 C225.69226,167.44 240.44,152.69226 240.44,134.5 C240.44,116.30774 225.69226,101.56 207.5,101.56 Z" id="Combined-Shape" fill="url(#linearGradient-4)"></path>
+            <path d="M4,0 L246,0 C248.209139,-4.05812251e-16 250,1.790861 250,4 L250,13 L250,13 L0,13 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#080351"></path>
+            <circle id="Oval" fill="#FF5A52" cx="8.5" cy="6.5" r="2.5"></circle>
+            <circle id="Oval-Copy-35" fill="#E6C029" cx="18.5" cy="6.5" r="2.5"></circle>
+            <circle id="Oval-Copy-36" fill="#50BF2B" cx="28.5" cy="6.5" r="2.5"></circle>
+        </g>
+        <line x1="314" y1="132" x2="768" y2="132" id="Line-6" stroke="url(#linearGradient-5)" stroke-width="2" stroke-linecap="round"></line>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+kind: ExternalService
+name: docs-v2
+spec:
+  image_pull_policy: Always
+  port: 80
+  allow_http: false
+  source:
+    context: ./build
+    project_type: static_website

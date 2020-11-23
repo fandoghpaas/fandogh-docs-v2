@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1323px" height="486px" viewBox="0 0 1323 486" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gitlab-runner-banner</title>
+    <defs>
+        <filter x="-31.6%" y="-31.6%" width="163.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="50.5265697%" x2="100%" y2="49.4734303%" id="linearGradient-2">
+            <stop stop-color="#2979FF" offset="0%"></stop>
+            <stop stop-color="#6299FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.46426%" x2="100%" y2="49.53574%" id="linearGradient-3">
+            <stop stop-color="#2979FF" offset="0%"></stop>
+            <stop stop-color="#6299FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-31.6%" y="-31.6%" width="163.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-31.6%" y="-31.6%" width="163.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-6" cx="19.5" cy="19.5" r="9.5"></circle>
+        <filter x="-36.8%" y="-26.3%" width="173.7%" height="173.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-31.6%" y="-31.6%" width="163.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-31.6%" y="-31.6%" width="163.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.9%" y="-24.0%" width="121.8%" height="148.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="gitlab-runner-banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy-3" filter="url(#filter-1)" opacity="0.1" transform="translate(936.000000, 378.000000)" fill="#1A0FC7">
+            <circle id="Oval" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy" cx="19.5" cy="19.5" r="9.5"></circle>
+        </g>
+        <polyline id="Path-10" stroke="url(#linearGradient-2)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" points="133 487 133 397 1010 397"></polyline>
+        <polyline id="Path-10-Copy" stroke="url(#linearGradient-2)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" transform="translate(571.500000, 45.000000) scale(1, -1) translate(-571.500000, -45.000000) " points="133 90 133 0 1010 0"></polyline>
+        <polyline id="Path-10-Copy-2" stroke="url(#linearGradient-3)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" transform="translate(446.000000, 146.000000) scale(1, -1) translate(-446.000000, -146.000000) " points="-21 191 -21 101 913 101"></polyline>
+        <polyline id="Path-10-Copy-3" stroke="url(#linearGradient-3)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" transform="translate(446.000000, 254.000000) scale(1, -1) translate(-446.000000, -254.000000) " points="-21 299 -21 209 913 209"></polyline>
+        <g id="Group-3" filter="url(#filter-4)" transform="translate(185.000000, 280.000000)" fill="#1A0FC7">
+            <circle id="Oval" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy" cx="19.5" cy="19.5" r="9.5"></circle>
+        </g>
+        <g id="Group-3-Copy-4" filter="url(#filter-5)" opacity="0.7" transform="translate(324.000000, 171.000000)" fill="#1A0FC7">
+            <circle id="Oval" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy" cx="19.5" cy="19.5" r="9.5"></circle>
+        </g>
+        <g id="Group-3-Copy-2" transform="translate(114.000000, 417.000000)">
+            <circle id="Oval" fill-opacity="0.5" fill="#1A0FC7" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy-2" fill-opacity="0.5" fill="#1A0FC7" cx="19" cy="19" r="19"></circle>
+            <g id="Oval-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#1A0FC7" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+        </g>
+        <g id="Group-3-Copy-5" filter="url(#filter-8)" opacity="0.4" transform="translate(580.000000, 70.000000)" fill="#1A0FC7">
+            <circle id="Oval" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy-2" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy" cx="19.5" cy="19.5" r="9.5"></circle>
+        </g>
+        <g id="Group-3-Copy" filter="url(#filter-9)" opacity="0.2" transform="translate(756.000000, 280.000000)" fill="#1A0FC7">
+            <circle id="Oval" fill-opacity="0.5" cx="19" cy="19" r="19"></circle>
+            <circle id="Oval-Copy" cx="19.5" cy="19.5" r="9.5"></circle>
+        </g>
+        <g id="Group-2" transform="translate(894.000000, 70.000000)" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M297.277439,264.666884 L287.527255,302.950072 L279.197541,335.731661 L267.415848,322.700158 L264.97698,319.84993 C238.363687,336.548283 206.875302,347 173.355409,347 C78.0781797,347 0,268.739394 0,173.239555 C0,126.609841 19.1644276,84.0526366 49.4333782,52.8963415 L72.7957282,87.7168358 C53.0916812,110.72546 41.3073435,140.659471 41.3073435,173.239555 C41.3073435,246.139083 100.62581,305.596144 173.355409,305.596144 C196.514079,305.596144 218.25228,299.691534 237.144253,288.897791 L224.754166,275.256471 L263.350186,269.553366 L297.277439,264.666884 Z" id="Path" fill="#FDBF00"></path>
+                <path d="M347,173.242899 C347,224.809202 323.7809,270.895577 287.837701,302.567073 L297.584382,264.397911 L263.671963,269.269839 C289.664874,245.518199 305.707498,211.208513 305.707498,173.242899 C305.707498,100.560503 246.410343,41.2805345 173.706875,41.2805345 C146.087755,41.2805345 120.094843,49.8057472 98.9752725,64.6277221 C101.003407,66.4543647 112.172691,77.620411 113.7989,79.2461487 C109.129167,80.2612438 44.347852,94.2690278 42.3170732,94.6734803 C43.1262113,89.8015523 54.9063151,24.8354652 55.3108841,22.805275 L69.1217667,36.0015114 C98.1634903,13.8729665 134.513902,0 173.706875,0 C268.949873,0 347,78.0275061 347,173.242899 Z" id="Path" fill="#FF5B5B"></path>
+                <path d="M347,173.242899 C347,224.809202 323.753182,270.895577 287.767074,302.567073 L263.572487,269.269839 C289.596428,245.518199 305.658203,211.208513 305.658203,173.242899 C305.658203,100.560503 246.29026,41.2805345 173.5,41.2805345 L173.5,0 C268.856697,0 347,78.0275061 347,173.242899 Z" id="Path" fill="#FF3939"></path>
+                <path d="M297.277439,264.481707 L287.538631,302.850999 L279.218636,335.706317 L267.450691,322.645505 L265.014668,319.788867 C238.432427,336.524776 206.980783,347 173.5,347 L173.5,305.503022 C196.631649,305.503022 218.344486,299.585132 237.214416,288.76977 L224.838786,275.095112 L263.389772,269.381837 L297.277439,264.481707 Z" id="Path" fill="#FF9F00"></path>
+            </g>
+            <g id="GitLab_Logo" transform="translate(84.000000, 95.000000)">
+                <polygon id="Fill-4" fill="#E24329" points="90.5294118 166 90.5294118 166 123.882353 64.4968153 57.1764706 64.4968153"></polygon>
+                <polygon id="Fill-8" fill="#FC6D26" points="90 166 56.9320898 64.4968153 10.5882353 64.4968153"></polygon>
+                <path d="M10.4079104,64.4968153 L10.4079104,64.4968153 L0.336349853,95.3427011 C-0.58228763,98.1559511 0.423839137,101.238064 2.82893671,102.976714 L90,166 L10.4079104,64.4968153 Z" id="Fill-12" fill="#FCA326"></path>
+                <path d="M10.5882353,63.4394904 L57.1764706,63.4394904 L37.1545327,2.35726233 C36.1247446,-0.786180499 31.639101,-0.785327693 30.6093128,2.35726233 L10.5882353,63.4394904 Z" id="Fill-16" fill="#E24329"></path>
+                <polygon id="Fill-18" fill="#FC6D26" points="90 166 123.06791 64.4968153 169.411765 64.4968153"></polygon>
+                <path d="M169.59209,64.4968153 L169.59209,64.4968153 L179.66365,95.3427011 C180.582288,98.1559511 179.576161,101.238064 177.171063,102.976714 L90,166 L169.59209,64.4968153 Z" id="Fill-20" fill="#FCA326"></path>
+                <path d="M169.411765,63.4394904 L122.823529,63.4394904 L142.845467,2.35726233 C143.875255,-0.786180499 148.360899,-0.785327693 149.390687,2.35726233 L169.411765,63.4394904 Z" id="Fill-22" fill="#E24329"></path>
+            </g>
+        </g>
+        <g id="Group-4" filter="url(#filter-10)" transform="translate(288.000000, 114.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy" filter="url(#filter-11)" transform="translate(544.000000, 10.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy-2" filter="url(#filter-12)" transform="translate(149.000000, 220.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy-4" filter="url(#filter-13)" transform="translate(162.000000, 411.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy-5" filter="url(#filter-14)" transform="translate(900.000000, 426.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+        <g id="Group-4-Copy-3" filter="url(#filter-15)" transform="translate(720.000000, 220.000000)">
+            <rect id="Rectangle" fill="#09C61C" opacity="0.3" x="0" y="0" width="110" height="50" rx="6"></rect>
+            <rect id="Rectangle-Copy" fill="#09C61C" x="10" y="9" width="90" height="31.5" rx="5"></rect>
+            <text id="Job" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="23" font-weight="300" fill="#FEFEFE">
+                <tspan x="36.255" y="33">Job</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

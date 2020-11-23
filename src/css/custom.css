@@ -1,0 +1,459 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+html[data-theme='dark'] {
+
+  --ifm-custom-card-background-color: #292929;
+  --ifm-custom-card-shadow-color: #292929;
+  --ifm-custom-blog-background-color: rgba(4, 0, 39, 1);
+  --ifm-custom-blog-background-linear: linear-gradient(to bottom, #110c41, #0023ad);
+  --ifm-custom-blog-card-background-color: #110c41;
+
+}
+
+html[data-theme='light'] {
+
+  --ifm-custom-card-background-color: #fefefe;
+  --ifm-custom-card-shadow-color: #292929;
+  --ifm-custom-blog-background-color: #f6faff;
+  --ifm-custom-blog-card-background-color: #fefefe;
+  --ifm-custom-blog-background-linear: linear-gradient(to bottom,  #f6faff, #fefefe);
+
+}
+
+
+:root {
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
+  --ifm-code-font-size: 95%;
+  --ifm-container-width: 1100px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url(/fonts/iranyekanwebregular.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(/fonts/Helvetica.ttf); 
+  src: url(/fonts/Helvetica-Bold.ttf') format('truetype'),
+       url(/fonts/Helvetica-BoldOblique.ttf') format('truetype'),
+       url(/fonts/helvetica-compressed-5871d14b6903a.otf') format('opentype'),
+       url(/fonts/helvetica-light-587ebe5a59211.ttf') format('truetype'),
+       url(/fonts/Helvetica-Oblique.ttf') format('truetype'),
+       url(/fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype');
+}
+
+
+.navbar {
+  direction: rtl;
+}
+
+.navbar__item.navbar__link[href*="github"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("/img/brand-github.svg");
+  background-repeat: no-repeat;
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) > ul {
+  display: inline-flex;
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) > ul > li > a {
+  transition: all .2s ease-in-out;
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) > ul > li > a:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, .7));
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) {
+  flex-basis: 100% !important;
+  display: flex !important;
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) > ul {
+
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+footer > div > div.row.footer__links > div:nth-child(1) > h4 {
+
+  display: none;
+
+}
+
+
+.footer__link-item[href*="github"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+
+.footer__link-item[href*="github"]:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: url("/img/github_icon.svg");
+  background-repeat: no-repeat;
+}
+
+.footer__link-item[href*="mailto"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+
+.footer__link-item[href*="mailto"]:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: url("/img/email_icon.svg");
+  background-repeat: no-repeat;
+}
+
+.footer__link-item[href*="blog"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+
+.footer__link-item[href*="blog"]:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: url("/img/blog_icon.svg");
+  background-repeat: no-repeat;
+  object-fit:
+}
+
+
+.footer__link-item[href*="twitter"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+
+.footer__link-item[href*="twitter"]:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: url("/img/twitter_icon.svg");
+  background-repeat: no-repeat;
+  object-fit:
+}
+
+.navbar__logo {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+ 
+.main-wrapper {
+  direction: rtl;
+}
+
+* {
+  font-family: "Helvetica", "IRANYekan";
+}
+
+
+.menu__list-item--collapsed .menu__link--sublist:after {
+    transform: rotateZ(-90deg);
+}
+
+.menu__link--sublist:after {
+    transform: rotate(-180deg);
+}
+
+.pagination-nav__item + .pagination-nav__item {
+    margin-right: var(--ifm-spacing-horizontal);
+}
+
+
+.markdown > h3 {
+  direction: rtl;
+}
+
+
+.hash-link {
+    padding-right: 0.5rem;
+}
+
+* [class^='codeBlockLines_'], [class*=' codeBlockLines_'] {
+  direction: ltr;
+}
+
+
+.admonition-icon {
+    margin-left: 0.2em;
+}
+
+[class^='codeBlockTitle_'], [class*=' codeBlockTitle_'] {
+  direction: ltr;
+}
+
+
+.menu__link--sublist {
+
+  font-weight: bold;
+
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+    font-weight: 900;
+}
+
+[class^='docTitle_'], [class*=' docTitle_'] {
+    margin-bottom: 32px !important;
+    padding-bottom: 48px;
+    border-bottom: 2px solid rgba(213, 213, 213, 1.0);
+}
+
+
+.menu__list {
+    padding-right: 24px;
+}
+
+table td {
+    direction: ltr;
+}
+
+
+.table-of-contents ul {
+  padding-right: 18px;
+}
+
+.footer__logo {
+  max-width: 4rem;
+}
+
+
+.footer {
+  background-color: #0f0050;
+  background-image: url("/img/group.svg");
+  background-size: 50%;
+  background-position: 50%;
+  background-attachment: fixed;
+  animation: slide-reverse 20s linear infinite;
+  box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media screen and (max-width: 992px) {
+
+  .footer {
+    background-size: 100%;
+  }
+
+  .footer__links > div {
+    flex-basis: 50% !important;
+  }
+
+  .footer__links {
+  
+    padding-right: 16px;
+    padding-left: 16px;
+  
+  }
+
+}
+
+
+.footer__items {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+.footer__col {
+  direction: rtl;
+}
+
+.table-of-contents__link {
+    unicode-bidi: plaintext;
+}
+
+
+.table-of-contents, .table-of-contents ul {
+    padding-right: 12px;
+}
+
+
+[class^='sidebarItemList_'], [class*=' sidebarItemList_'] {
+  padding-right: 0;
+}
+
+.avatar__intro {
+    margin-right: var(--ifm-avatar-intro-margin);
+}
+
+
+article > footer {
+  display: flex !important;
+  flex-direction: column !important;
+} 
+
+
+article > footer > div {
+  margin-bottom: 16px;
+}
+
+article > footer > div[class*='text--right'] > a {
+  padding: 8px 64px;
+  box-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #3578e5;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  text-decoration: none;
+}
+
+article > footer > div[class*='text--right'] > a:hover {
+  background-color: #3578e5;
+  color: #fefefe;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.17);
+}
+
+/**
+*ul.menu__list {
+*    margin: 0;
+*    list-style-type: none;
+*    padding-left: 0;
+*    transition: height var(--ifm-transition-fast) cubic-bezier(0.08, 0.52, 0.52, 1);
+*    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+*    border-radius: 15px;
+*    padding: .25rem .75rem;
+*}
+*
+*
+*ul.menu__list > li > ul.menu__list {
+*    box-shadow: none !important;
+*    border-radius: none;
+*}
+*
+*
+*[class^='docSidebarContainer_'], [class*=' docSidebarContainer_'] {
+*  width: 350px !important;
+*}
+**/
+
+.pagination-nav__sublabel {
+  display: none;
+}
+
+div.pagination-nav__item--next > a > div.pagination-nav__label {
+    text-align: left;
+}
+
+a.pagination-nav__link {
+
+  transition: all .2s ease-in-out;
+
+}
+
+a.pagination-nav__link:hover {
+
+  background-color: rgba(29, 104, 225);
+  color: #fefefe;
+
+}
+
+.text--center {
+  text-align: ceter;
+}
+
+
+.col {
+  padding: 0 !important;
+}
+
+
+[class^='sidebarLogo_'] > strong, [class*=' sidebarLogo_'] > strong {
+  margin-right: 0.5rem !important;
+}
+
+
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+@keyframes slide-reverse {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 400px 0;
+  }
+}
+
+/**
+*.markdown > h1, .markdown > h2, .markdown > h3, .markdown > h4, .markdown > h5, .markdown > h6 {
+*  unicode-bidi: plaintext;
+*}}
+**/
+
+
+code {
+  font-family: "IRANYekan", "Helvetica";
+}
+
+a[href*="/edit/"] {
+
+   border: 1px solid #3578e5;
+   padding: 8px 12px;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: all .3s ease-in-out;
+
+}
+
+a[href*="/edit/"]:hover {
+
+   background-color: #3578e5;
+   color: #fefefe;
+
+}
+
+a[href*="/edit/"] > svg {
+
+  margin-right: 0 !important;
+  margin-left: .3em !important;
+}

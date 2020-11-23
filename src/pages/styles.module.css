@@ -1,0 +1,299 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+.heroBanner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url('/img/blog/fandogh-paas-banner-blur.svg');
+  background-position: center;
+  padding: 0 !important;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+[class^='heroBanner_'] > div, [class*=' heroBanner_'] > div {
+  padding: 5rem;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fefefe;
+}
+
+@media screen and (max-width: 992px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  [class^='heroBanner_'] > div, [class*=' heroBanner_'] > div {
+    padding: 2.5rem;
+  }
+  
+  [class^='heroBanner_'] > div > h1, [class*=' heroBanner_'] > div > h1 {
+    font-size: 2em;
+  }
+
+  [class^='heroBanner_'] > div > p, [class*=' heroBanner_'] > div > p {
+    font-size: 1.1em;
+  }
+
+  .getStarted {
+    background-color: #fefefe;
+    color: #222222 !important;
+    margin-top: 32px;
+    transform: scale(.8, .8);
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 100px;
+  width: 100px;
+}
+
+.blogImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
+  margin: 12px;
+  padding: 32px;
+  cursor: pointer;
+  flex: 1 1;
+  justify-content: center;
+  text-align: center;
+  text-decoration: unset;
+  color: unset;
+  transition: all .3s ease-in-out;
+  background-color: var(--ifm-custom-card-background-color);
+}
+
+.card:hover {
+  text-decoration: unset;
+  color: unset;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3), 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+  text-align: center;
+  margin-top: 32px;
+  text-decoration: none;
+}
+
+.inner_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.getStarted {
+  background-color: #fefefe;
+  color: #222222 !important;
+  margin-top: 32px;
+}
+
+
+.headerContainer {
+
+  background-image: url("/img/group.svg");
+  background-position: 50%;
+  background-attachment: fixed;
+  animation: slide 20s linear infinite;
+  box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+  filter: grayscale(10%);
+}
+
+
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+@keyframes slide-reverse {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 400px 0;
+  }
+}
+
+
+.blogMainContainer {
+  
+  background-color: var(--ifm-custom-blog-background-color);
+  background-image: var(--ifm-custom-blog-background-linear);
+  padding-top: 32px;
+
+}
+
+.card_blog {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
+  margin: 12px;
+  padding: 24px 16px;
+  cursor: pointer;
+  flex: 1 1;
+  text-align: center;
+  text-decoration: unset;
+  color: unset;
+  transition: all .3s ease-in-out;
+  background-color: var(--ifm-custom-blog-card-background-color);
+  min-height: 600px;
+  cursor: pointer;
+  max-height: 600px;
+}
+
+.card_blog:hover {
+  text-decoration: unset;
+  color: unset;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3), 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.cardBlogTitle {
+  text-align: center;
+  margin-top: 24px;
+  text-decoration: none;
+}
+
+.card_blog > p {
+  margin-top: 32px;
+  overflow: hidden;
+}
+
+
+.readMoreButton {
+
+  background-color: #0233f7;
+  background-image: linear-gradient(to right, #00E5FF , #00a2ff);
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  color: #fefefe;
+  text-decoration: none;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 229, 255, .4);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.card_blog:hover > .readMoreButton {
+  box-shadow: 0 0 6px rgba(0, 229, 255, .4), 0 0 12px rgba(0, 229, 255, .7), 0 0 20px rgba(0, 229, 255, .7);
+}
+
+.readMoreButton:hover {
+
+  text-decoration: none;
+  color: #fefefe;
+  box-shadow: 0 0 6px rgba(0, 229, 255, .4), 0 0 12px rgba(0, 229, 255, .7), 0 0 20px rgba(0, 229, 255, .7);
+
+}
+
+
+.blogHeader {
+
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.blogDivider {
+
+  height: 2px;
+  border-radius: 1px;
+  background-color: #3c3c3c;
+
+}
+
+.blogHeader > div {
+  
+  flex: .7 1;
+  align-self: center;
+  
+}
+
+
+.blogHeader > a { 
+
+  background-color: #0233f7;
+  background-image: linear-gradient(to right, #00E5FF , #00a2ff);
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  color: #fefefe;
+  text-decoration: none;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 16px;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 229, 255, .4);
+  transition: all .3s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.blogHeader > a:hover {
+
+  text-decoration: none;
+  color: #fefefe;
+  box-shadow: 0 0 6px rgba(0, 229, 255, .4), 0 0 12px rgba(0, 229, 255, .7), 0 0 20px rgba(0, 229, 255, .7);
+
+}
+
+
+.blogHeader > p {
+  
+  text-align: center;
+  align-self: center;
+  margin-right: auto;
+  margin-left: 16px;
+  margin-top: auto;
+  font-size: 1.2em;
+  margin-bottom: auto;
+  font-weight: bolder;
+  
+}

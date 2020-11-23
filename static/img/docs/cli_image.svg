@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="777px" height="78px" viewBox="0 0 777 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CLI command</title>
+    <defs>
+        <linearGradient x1="100%" y1="52.8674451%" x2="0%" y2="52.8674451%" id="linearGradient-1">
+            <stop stop-color="#1A0FC7" offset="0%"></stop>
+            <stop stop-color="#A2CBFC" offset="47.5247532%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="CLI-command" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="777" height="78"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="777" height="78"></rect>
+        <text id="commands" font-family="Futura-Medium, Futura" font-size="31" font-weight="400" fill="#4A4A4A">
+            <tspan x="27" y="66">commands</tspan>
+        </text>
+        <text id="cli" font-family="Futura-Medium, Futura" font-size="31" font-weight="400" fill="#4A4A4A">
+            <tspan x="27" y="34">cli</tspan>
+        </text>
+        <line x1="70" y1="11.5" x2="70" y2="32" id="Line" stroke="#4A4A4A" stroke-width="11" stroke-linecap="square"></line>
+    </g>
+</svg>
