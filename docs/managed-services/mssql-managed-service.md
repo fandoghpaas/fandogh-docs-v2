@@ -17,7 +17,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/mssql-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/mssql-managed-service-thumbnail.png
 ---
 
 ![MSSQL](/img/docs/mssql-managed-service.svg "MSSQL")

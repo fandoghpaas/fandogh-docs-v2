@@ -15,7 +15,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/mysql-phpmyadmin-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/mysql-phpmyadmin-managed-service-thumbnail.png
 ---
 
 ![MySQL + PHPMyAdmin](/img/docs/mysql-phpmyadmin.svg "MySQL + PHPMyAdmin")

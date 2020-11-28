@@ -14,7 +14,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/gitlab-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/gitlab-managed-service-thumbnail.png
 ---
 
 ![Gitlab](/img/docs/gitlab-managed-service.svg "Gitlab")

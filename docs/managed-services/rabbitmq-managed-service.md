@@ -16,7 +16,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/rabbitmq-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/rabbitmq-managed-service-thumbnail.png
 ---
 
 ![RabbitMQ](/img/docs/rabbitmq-managed-service.svg "RabbitMQ")

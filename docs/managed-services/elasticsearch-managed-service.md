@@ -13,7 +13,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/elasticsearch-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/elasticsearch-managed-service-thumbnail.png
 ---
 
 ![Elasticsearch](/img/docs/elasticsearch-managed-service.svg "Elasticsearch")

@@ -8,7 +8,7 @@ keywords:
   - vps
   - cluster
   - "سکوی ابری فندق"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/clusters/single-multi-cluster-fandoghpaas-thumbnail.png
 ---
 ## کلاستر (Cluster) چیست؟
 
