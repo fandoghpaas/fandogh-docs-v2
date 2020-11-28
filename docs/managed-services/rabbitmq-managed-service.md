@@ -2,6 +2,21 @@
 id: rabbitmq-managed-service
 title: RabbitMQ
 sidebar_label: RabbitMQ
+description: 'RabbitMQ یک سرویس متن باز Message Broker یا پیام دهنده است که معماری Advanced Message Queuing Protocol یا به اختصار AMQP را ایجاد کرده‌ است'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - rabbitmq
+  - rabbit
+  - "message broker"
+  - amqp
+  - ربیت
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![RabbitMQ](/img/docs/rabbitmq-managed-service.svg "RabbitMQ")

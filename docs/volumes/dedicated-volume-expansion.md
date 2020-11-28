@@ -2,6 +2,27 @@
 id: dedicated-volume-expansion
 title: افزایش فضای ذخیره‌سازی
 sidebar_label: افزایش فضای ذخیره‌سازی
+description: 'با قابلیت expansion یا همان افزایش فضای ذخیره‌سازی سکوی ابری فندق، شما می‌توانید در هر لحظه فضای volumeهای متصل به سرویس‌های خود را افزایش دهید.
+.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - volume
+  - volumes
+  - "dedicated volume"
+  - فضا
+  - expand
+  - axpanding
+  - axpansion
+  - resize
+  - "فضای ذخیره سازی"
+  - "ذخیره سازی"
+  - storage
+  - file
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![VOLUME_EXPANSION](/img/docs/volume_expansion.svg "VOLUME_EXPANSION")

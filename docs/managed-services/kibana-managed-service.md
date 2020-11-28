@@ -1,7 +1,20 @@
 ---
 id: kibana-managed-service
 title: Kibana
-sidebar_label: Kibana 
+sidebar_label: Kibana
+description: 'Kibana یک داشبورد مدیریتی و متن‌باز برای دسترسی به داده‌های ثبت شده داخل Elasticsearch است. کاربرها می‌توانند بر اساس داده‌های موجود جداول و گراف‌های متفاوتی ایجاد کنند...'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - kibana
+  - کیبانا
+  - ELK
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Kibana](/img/docs/kibana-managed-service.svg "Kibana")

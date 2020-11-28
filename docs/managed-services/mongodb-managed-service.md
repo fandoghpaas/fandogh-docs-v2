@@ -2,6 +2,21 @@
 id: mongodb-managed-service
 title: MongoDB
 sidebar_label: MongoDB
+description: 'یکی از پایگاه‌ داده‌های معروف و در دسترس MongoDB است که در میان توسعه دهندگان از محبوبیت بسیار بالایی برخوردار بوده و نشان داده است که در ساختارها و مقیاس‌های بزرگ و پیچیده به راحتی می‌تواند پاسخگوی نیاز‌های یک پروژه باشد.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - mongodb
+  - mongo
+  - nosql
+  - مونگو
+  - دیتابیس
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![MongoDB](/img/docs/MongoDB-managed-service.svg "MongoDB")

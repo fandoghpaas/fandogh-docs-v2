@@ -2,6 +2,24 @@
 id: source-spring-boot
 title: پروژه‌های Spring Boot
 sidebar_label: پروژه‌های Spring Boot 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Spring Boot بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - "اجرای مستقیم کد"
+  - java
+  - spring
+  - framework
+  - "spring boot"
+  - hibernate
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Spring Boot](/img/docs/spring-boot-banner.svg "Spring Boot")

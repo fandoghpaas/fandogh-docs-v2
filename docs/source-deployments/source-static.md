@@ -2,6 +2,23 @@
 id: source-static
 title: Static Website
 sidebar_label: وب سایت‌های ایستا 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Static Website بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - "اجرای مستقیم کد"
+  - html
+  - static
+  - website
+  - "static website"
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Static Website](/img/docs/static-website-banner.svg "Static Website")

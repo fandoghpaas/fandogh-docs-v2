@@ -2,6 +2,23 @@
 id: gitlab-runner-managed-service
 title: Gitlab Runner
 sidebar_label: Gitlab Runner
+description: 'یکی از پلتفرم‌هایی که فرآیند چرخه CI/CD را در اختیار کاربران قرار می‌دهد Gitlab است. برای آنکه سرویس CI/CD بتواند کار خود را به درستی انجام دهد، از سرویس‌های میانی به اسم Gitlab Runner استفاده می‌کند.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - gitlab
+  - "Gitlab Runner"
+  - jobs
+  - "job scheduler"
+  - "گیتلب رانر"
+  - "repository manager"
+  - گیتلب
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
  ![Gitlab Runner](/img/docs/gitlab-runner-managed-service.svg "Gitlab Runner")

@@ -2,6 +2,20 @@
 id: redis-managed-service
 title: Redis
 sidebar_label: Redis
+description: 'Redis یک پایگاه داده متن‌باز است که با قابلیت ذخیره داده‌ها به صورت in-memory‍ باعث بالا رفتن سرعت ذخیره و بازیابی داده‌ها می‌شود.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - redis
+  - cache
+  - "in-memory database"
+  - database
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Redis](/img/docs/redis-managed-service.svg "Redis")

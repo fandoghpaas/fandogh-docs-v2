@@ -2,6 +2,19 @@
 id: gitlab-managed-service
 title: Gitlab
 sidebar_label: Gitlab
+description: 'یکی از کاربردی‌ترین و معروف‌ترین این پلتفرم‌ها که به کاربران اجازه می‌دهد چه به صورت On premise و چه به صورت Commercial از این محصول استفاده کنند Gitlab است که در سراسر جهان طرفداران زیادی را جذب کرده است.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - gitlab
+  - "repository manager"
+  - گیتلب
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Gitlab](/img/docs/gitlab-managed-service.svg "Gitlab")

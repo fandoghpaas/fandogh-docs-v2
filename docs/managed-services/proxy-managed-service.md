@@ -2,6 +2,17 @@
 id: proxy-managed-service
 title: Proxy
 sidebar_label: Proxy
+description: 'هنگامی که شما سرویس‌های خود را دیپلوی می‌کنید، سکوی ابری فندق ترافیک خروجی سرویس شما را بر روی IP های متفاوتی برمی‌گرداند. این حالت در برخی شرایط که نیاز به یک IP Address مشخص وجود دارد، کار را کمی دشوار می‌کند.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - proxy
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Proxy](/img/docs/proxy-managed-service.png "Proxy")

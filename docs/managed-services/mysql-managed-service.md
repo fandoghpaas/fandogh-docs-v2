@@ -2,6 +2,20 @@
 id: mysql-managed-service
 title: Mysql + phpMyAdmin
 sidebar_label: MySQL + phpMyAdmin
+description: 'MySQL یکی از محبوب‌ترین RDBMS‌های امروزی است که طرفداران زیادی در سرتاسر دنیا دارد؛ به همین دلیل MySQL به عنوان اولین managed-service به فندق اضافه شد.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - mysql
+  - sql
+  - دیتابیس
+  - database
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![MySQL + PHPMyAdmin](/img/docs/mysql-phpmyadmin.svg "MySQL + PHPMyAdmin")

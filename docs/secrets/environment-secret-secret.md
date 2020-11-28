@@ -2,6 +2,18 @@
 id: environment-secret-secret
 title: Environment Secret
 sidebar_label: Environment Secret
+description: 'در بیشتر مواقع سرویس‌ها نیاز دارند تا برخی از داده‌های خود را از طریق Environment Variableهای ذخیره شده بر روی سیستم عامل یا محیطی که در آن اجرا شده‌اند به دست آورند...'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - secret
+  - env
+  - "environment variable"
+  - سکرت
+  - فضانام
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 ## Environment-Secret
 

@@ -2,6 +2,22 @@
 id: docker-registry-secret
 title: docker registry secret
 sidebar_label: Docker Registry
+description: 'برای اینکه فندق بتواند به رجیستری‌های خصوصی کاربران متصل شده و Imageهای مورد نیاز را Pull کند، کاربران از پیش باید اطلاعات هویتی مورد نیاز را در اختیار فندق قرار داده باشند.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - secret
+  - env
+  - "docker registry"
+  - "private registry"
+  - docker
+  - registry
+  - "image registry"
+  - سکرت
+  - فضانام
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Docker Secret](/img/docs/secret_docker.svg "Docker Secret")

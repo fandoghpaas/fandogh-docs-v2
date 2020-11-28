@@ -2,6 +2,24 @@
 id: source-nodejs
 title: پروژه‌های Nodejs
 sidebar_label: پروژه‌های Nodejs 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Nodejs Project بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - "اجرای مستقیم کد"
+  - node
+  - nodejs
+  - framework
+  - "نود جی اس"
+  - نود
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Node.js Framework](/img/docs/node-js-banner.svg "Node.js Framework")

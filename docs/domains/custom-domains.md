@@ -2,6 +2,15 @@
 id: custom-domains
 title: دامنه دلخواه‌
 sidebar_label: دامنه دلخواه
+description: 'در این بخش چگونگی متصل کردن دامنه شخصی به سرویس‌ها را توضیح داده‌ایم...'
+keywords:
+  - "سکوی ابری"
+  - domin
+  - دامنه
+  - ssl
+  - certificate
+  - "سکوی ابری فندق"
+image: /img/fandogh.png
 ---
 
 ## دامنه

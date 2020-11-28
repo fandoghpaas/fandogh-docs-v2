@@ -2,6 +2,19 @@
 id: exec
 title: دستورات exec
 sidebar_label: دستورات exec
+description: 'exec یک قابلیت عملیاتی است که با استفاده از آن می‌توان دستورات خاصی را بر روی یک پروسه در حال اجرا پیاده کرد.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - سرویس
+  - exec
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## exec چیست ؟

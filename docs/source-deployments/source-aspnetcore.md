@@ -2,6 +2,26 @@
 id: source-aspnetcore
 title: پروژهای ASP.NET Core
 sidebar_label: پروژه‌های ASP.NET core 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس ASP.NET Core Project بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - asp
+  - "ASP.NET"
+  - "ASP.NET Core"
+  - ".net core"
+  - c#
+  - "سی شارپ"
+  - framework
+  - "اجرای مستقیم کد"
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Core Framework](/img/docs/asp-core-banner.svg "Core Framework")

@@ -2,6 +2,15 @@
 id: ssl-certificate
 title: گواهینامه رایگان SSL
 sidebar_label: گواهینامه رایگان SSL
+description: 'چگونه برای دامنه‌هایی که بر روی سکوی ابری فندق داریم ssl دریافت کنیم؟'
+keywords:
+  - "سکوی ابری"
+  - domin
+  - دامنه
+  - ssl
+  - certificate
+  - "سکوی ابری فندق"
+image: /img/fandogh.png
 ---
 
 ![Fandogh SSL](/img/docs/ssl.svg "Fandogh SSL")

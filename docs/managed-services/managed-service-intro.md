@@ -2,6 +2,16 @@
 id: managed-services-intro
 title: مقدمه
 sidebar_label: مقدمه
+description: 'شما می‌توانید برخی سرویس‌های پرکاربرد را که نصب سختی دارند را به صورت مدیریت شده از سکوی ابری فندق تهیه کنید بدون آنکه دانش فنی خاصی برای نصب نیاز باشد به این صورت که...'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 ## managed-service چیست؟
 ![Managed Service Intro](/img/docs/managed-service-intro.png "Managed Service Intro")

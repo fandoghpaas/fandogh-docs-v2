@@ -2,6 +2,26 @@
 id: source-laravel
 title: پروژه‌های لاراول
 sidebar_label: پروژه‌های لاراول 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Laravel Project بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - "اجرای مستقیم کد"
+  - php
+  - laravel
+  - framework
+  - "laravel project"
+  - لاراول
+  - پی‌اچ‌پی
+  - "پی اچ پی"
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Laravel Framework](/img/docs/laravel-framework-banner.svg "Laravel Framework")

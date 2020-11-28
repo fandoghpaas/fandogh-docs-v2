@@ -2,6 +2,16 @@
 id: secret
 title: مقدمه
 sidebar_label: مقدمه
+description: 'Secretها پیکربندی‌هایی هستند که حاوی اطلاعات محرمانه‌ بوده و در Namespace شما ذخیره می‌شوند..'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - secret
+  - سکرت
+  - فضانام
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Fandogh Secret](/img/docs/secret.svg "Fandogh Secret")

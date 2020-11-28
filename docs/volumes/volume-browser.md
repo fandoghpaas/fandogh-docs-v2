@@ -2,6 +2,24 @@
 id: volume-browser
 title: Volume Browser
 sidebar_label: Volume Browser 
+description: 'یکی از نیازمندی‌های کاربران در استفاده از فضاهای ذخیره سازی اختصاصی یا همان Dedicated Volumes دسترسی راحت به این فضاها برای مدیریت و آپلود و یا دانلود فایل‌ها است...'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - volume
+  - volumes
+  - "dedicated volume"
+  - فضا
+  - "فضای ذخیره سازی"
+  - "ذخیره سازی"
+  - storage
+  - file
+  - upload
+  - manager
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 یکی از نیازمندی‌های کاربران در استفاده از فضاهای ذخیره سازی اختصاصی یا همان **Dedicated Volumes** دسترسی راحت به این فضاها برای مدیریت و آپلود و یا دانلود فایل‌ها است؛<br/>

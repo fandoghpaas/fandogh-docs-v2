@@ -2,6 +2,22 @@
 id: minio-managed-service
 title: MinIO
 sidebar_label: MinIO
+description: 'اگر شما به دنبال راه حلی برای ذخیره‌سازی داده‌های متفاوت هستید بهتر است از Object Storageها استفاده کنید؛ یکی از این Object Storageها، MinIO است.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - MinIO
+  - مینیو
+  - "object storage"
+  - storage
+  - s3
+  - "s3 object storage"
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 import Tabs from '@theme/Tabs';

@@ -2,6 +2,22 @@
 id: mssql-managed-service
 title: MSSQL Server
 sidebar_label: MSSQL Server
+description: 'Microsoft SQL Server یک سیستم مدیریت پایگاه داده رابطه ای (RDBMS) است که از طیف گسترده ای از برنامه های پردازش تراکنش، هوش تجاری و تجزیه و تحلیل پشتیبانی می کند. Microsoft SQL Server به همراه اوراکل دیتابیس و IBM DB2 یکی از سه فناوری پیشرو در بازار هستند.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - mssql
+  - microsoftsqlserver
+  - "microsoft sqlserver"
+  - sql
+  - دیتابیس
+  - database
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![MSSQL](/img/docs/mssql-managed-service.svg "MSSQL")

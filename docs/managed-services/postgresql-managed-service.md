@@ -2,6 +2,20 @@
 id: postgresql-managed-service
 title: PostgreSQL + Adminer
 sidebar_label: PostgreSQL + Adminer
+description: 'PostgreSQL یک ORDBMS معروف و پرطرفدار است که می‌توانید به سادگی به عنوان یک managed-service روی Namespace خود دیپلوی کنید.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - postgresql
+  - sql
+  - دیتابیس
+  - database
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Postgresql + Adminer](/img/docs/postgresql-adminer.svg "Postgresql + Adminer")

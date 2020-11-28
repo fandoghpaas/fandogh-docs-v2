@@ -2,6 +2,26 @@
 id: source-django
 title: پروژه‌های جنگو
 sidebar_label: پروژه‌های جنگو 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Django Project بدون نیاز به دانش docker می‌پردازیم.'
+keywords:
+  - "سکوی ابری"
+  - داکر
+  - service
+  - container
+  - python
+  - django
+  - جانگو
+  - جنگو
+  - پایتون
+  - "django project"
+  - framework
+  - "اجرای مستقیم کد"
+  - "source deployment"
+  - "سرویس داکری"
+  - docker
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ## ![Django Project](/img/docs/Django-project-banner.svg "Django Project")

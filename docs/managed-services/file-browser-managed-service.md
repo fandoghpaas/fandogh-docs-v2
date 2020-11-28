@@ -2,6 +2,20 @@
 id: file-browser-managed-service
 title: File Browser
 sidebar_label: File Browser
+description: 'یکی از مشکلات کاربران بر روی سکو‌های ابری، دسترسی به داده‌های ذخیره‌شده بر روی Storage است، برای آنکه بتوانید به صورت گرافیکی با محل ذخیره‌سازی داده‌ها کار کنید و داده‌های خود را دانلود و آپلود و یا حتی Edit کنید، می‌توانید از سرویس مدیریت شده File Browser فندق استفاده کنید.'
+keywords:
+  - "سکوی ابری"
+  - "سرویس‌های مدیریت شده"
+  - سرویس
+  - داکر
+  - files
+  - "مدیریت فایل"
+  - "File Manager"
+  - "File Browser"
+  - "managed services"
+  - "سکوی ابری فندق"
+  - "زیرساخت ابری"
+image: /img/fandogh.png
 ---
 
 ![Filebrowser](/img/docs/file-browser-managed-service.svg "Filebrowseer")
