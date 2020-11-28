@@ -16,7 +16,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/mongodb-managed-service-thumbnail.png
 ---
 
 ![MongoDB](/img/docs/MongoDB-managed-service.svg "MongoDB")

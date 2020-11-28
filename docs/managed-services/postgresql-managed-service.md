@@ -15,7 +15,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/postgresql-adminer-managed-service-thumbnail.png
 ---
 
 ![Postgresql + Adminer](/img/docs/postgresql-adminer.svg "Postgresql + Adminer")

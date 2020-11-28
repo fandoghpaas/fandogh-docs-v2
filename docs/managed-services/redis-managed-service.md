@@ -15,7 +15,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/redis-managed-service-thumbnail.png
 ---
 
 ![Redis](/img/docs/redis-managed-service.svg "Redis")

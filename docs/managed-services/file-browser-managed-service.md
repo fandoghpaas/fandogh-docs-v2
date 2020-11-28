@@ -15,7 +15,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/file-browser-managed-service-thumbnail.png
 ---
 
 ![Filebrowser](/img/docs/file-browser-managed-service.svg "Filebrowseer")

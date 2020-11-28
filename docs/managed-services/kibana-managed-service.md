@@ -14,7 +14,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/kibana-managed-service-thumbnail.png
 ---
 
 ![Kibana](/img/docs/kibana-managed-service.svg "Kibana")

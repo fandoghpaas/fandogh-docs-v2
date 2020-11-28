@@ -17,7 +17,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/minio-managed-service-thumbnail.png
 ---
 
 import Tabs from '@theme/Tabs';

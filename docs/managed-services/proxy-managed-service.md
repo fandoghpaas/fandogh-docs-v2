@@ -12,7 +12,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/proxy-managed-service-thumbnail.png
 ---
 
 ![Proxy](/img/docs/proxy-managed-service.png "Proxy")
