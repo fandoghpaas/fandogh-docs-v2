@@ -14,10 +14,10 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/gitlab-managed-service-thumbnail.png
 ---
 
-![Gitlab](/img/docs/thumbnails/gitlab-managed-service-thumbnail.png "Gitlab")
+![Gitlab](/img/docs/gitlab-managed-service.svg "Gitlab")
 
 یکی از مشکلات مطرح و مرسوم در روند توسعه و نگهداری یک محصول نرم‌افزاری، نحوه مدیریت و نگهداری کد‌ها است.<br/>
 یکی از موثرترین ابزارهایی که مدت زمان خیلی زیادی است در دسترس توسعه‌دهندگان قرار گرفته، نرم‌افزار git است که با استفاده از آن می‌توان تغییرات کد‌ها را مشاهده و ردگیری کرد و در قالب شاخه‌های متفاوت در دسترس تیم‌های توسعه قرار داد بدون آنکه نگرانی بابت تداخل در کدها و روند توسعه بوجود آید.<br/>
