@@ -10,7 +10,7 @@ keywords:
   - فضانام
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/namespaces/namespaces-thumbnail.png
 ---
 
 ## فضانام‌ها
