@@ -7,7 +7,7 @@ sidebar_label: RabbitMQ
 ![RabbitMQ](/img/docs/rabbitmq-managed-service.svg "RabbitMQ")
 
 RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا **پیام دهنده** است که معماری `Advanced Message Queuing Protocol` یا به اختصار `AMQP` را ایجاد کرده‌ است.<br/>
-همچنین این سرویس در ادامه با معماری plug-in به نحوی گسترش یافت تا بتواند از پروتکول‌هایی مثل `Streaming Text Oriented Messaging Protocol` یا به اختصار (STOMP)، MQTT و ... هم پشتیبانی کند.<br/><br/>
+همچنین این سرویس در ادامه با معماری plug-in به نحوی گسترش یافت تا بتواند از پروتکول‌هایی مثل `Streaming Text Oriented Messaging Protocol` یا به اختصار )STOMP(، MQTT و ... هم پشتیبانی کند.<br/><br/>
 برای اینکه بتوانید این سرویس را دیپلوی کنید، پارامتر‌های زیر را می‌توانید مشخص کنید:
 
 |کانفیگ|نوع|پیش‌فرض|توضیح|
@@ -37,7 +37,7 @@ RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا *
 ```
 
 این دستور یک سرویس RabbitMQ ایجاد می‌کند که:
-- نام آن test-rabbitmq ( یعنی در شبکه داخلی فضانام شما باقی سرویس‌ها از طریق نام test-rabbitmq و بر روی پورت 5672 می‌توانند به آن متصل شوند)
+- نام آن test-rabbitmq )یعنی در شبکه داخلی فضانام شما باقی سرویس‌ها از طریق نام test-rabbitmq و بر روی پورت 5672 می‌توانند به آن متصل شوند(.
 - میزان رم آن 512 مگابایت.
 - نا کاربری و گذرواژه rabbitmq.
 - و نام volume که داده‌های RabbitMQ بر روی آن ذخیره می‌شود VOLUME_NAME است.

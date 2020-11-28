@@ -66,6 +66,6 @@ volume_mounts:
 
 ## چگونگی جدا کردن سرویس از volume
 
-برای آنکه بتوانید یک سرویس را از یک volume جدا کنید یا اصطلاحا detach کنید، کافی است سرویسی را که به آن متصل است destroy کرده و نام volume‌ای (volume_name) که در مانیفست آن سرویس بوده را حذف کنید.
+برای آنکه بتوانید یک سرویس را از یک volume جدا کنید یا اصطلاحا detach کنید، کافی است سرویسی را که به آن متصل است destroy کرده و نام volume‌ای )volume_name( که در مانیفست آن سرویس بوده را حذف کنید.
 
 [service_manifest]: /docs/services/service-manifest

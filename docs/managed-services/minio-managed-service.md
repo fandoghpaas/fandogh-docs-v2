@@ -49,7 +49,7 @@ MinIO یک  [Cloud Storage] [cloud_storage] سازگار با [Amazon S3] [amazo
 ```
 
 این دستور یک سرویس MinIO ایجاد می‌کند که:
-- نام آن test-minio ( یعنی در شبکه داخلی فضانام شما باقی سرویس‌ها از طریق نام test-minio و بر روی پورت 9000 می‌توانند به آن متصل شوند)  است.
+- نام آن test-minio )یعنی در شبکه داخلی فضانام شما باقی سرویس‌ها از طریق نام test-minio و بر روی پورت 9000 می‌توانند به آن متصل شوند( است.
 - میزان رم آن 512 مگابایت.
 - minio_access_key آن 12charchters
 - minio_secret_key آن 12charchters 
