@@ -2,6 +2,15 @@
 id: fandogh-cli-cheat-sheet
 title: خلاصه دستورات fandogh-cli
 sidebar_label: خلاصه دستورات fandogh-cli
+description: 'تمام دستورات سکوی ابری فندق در یک نگاه'
+keywords:
+  - "سکوی ابری"
+  - vps
+  - cli
+  - fandogh-cli
+  - cheat-sheet
+  - "سکوی ابری فندق"
+image: /img/docs/cli_image.svg
 ---
 
 ## مقدمه 
