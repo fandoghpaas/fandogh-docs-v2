@@ -14,7 +14,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/services/service-exec-thumbnail.png
 ---
 
 ## exec چیست ؟

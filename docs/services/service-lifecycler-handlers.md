@@ -14,7 +14,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/services/service-lifecycle-commands-thumbnail.png
 ---
 
 ## اتصال دستور به سرویس‌ها در چرخه‌ حیات

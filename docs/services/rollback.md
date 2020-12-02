@@ -14,7 +14,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/services/service-rollback-thumbnail.png
 ---
 
 در پروسه توسعه و استقرار پروژه‌های نرم‌افزاری یکی از مسائلی که اهمیت دارد stable ماندن نسخه جدید و دسترسی‌پذیری آن است.<br/>

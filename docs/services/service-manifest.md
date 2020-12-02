@@ -15,7 +15,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/services/service-manifest-thumbnail.png
 ---
 
 # مانیفست سرویس چیست؟

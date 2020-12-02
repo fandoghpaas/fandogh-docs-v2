@@ -13,7 +13,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/services/services-thumbnail.png
 ---
 
 هر سرویس در فندق یک نسخه در حال اجرا از یک ورژن بخصوص از یکی از image های شماست. سرویس‌ها انواع مختلفی دارند و برای ساخت آن‌ها روش‌های متفاوتی در نظر گرفته شده است.
