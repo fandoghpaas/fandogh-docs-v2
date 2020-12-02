@@ -19,7 +19,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/volumes/volume-browser-thumbnail.png
 ---
 
 یکی از نیازمندی‌های کاربران در استفاده از فضاهای ذخیره سازی اختصاصی یا همان **Dedicated Volumes** دسترسی راحت به این فضاها برای مدیریت و آپلود و یا دانلود فایل‌ها است؛<br/>

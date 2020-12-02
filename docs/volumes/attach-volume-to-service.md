@@ -19,7 +19,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/volumes/volume-attach-thumbnail.png
 ---
 
 بعد از اینکه شما یک dedicate volume ایجاد کردید، قدم بعدی اتصال آن به یک سرویس است تا داده‌های سرویس مورد نظر در مسیرهای مشخص شده در آن volume ذخیره شوند.<br/>

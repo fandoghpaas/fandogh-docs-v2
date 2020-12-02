@@ -22,7 +22,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/volumes/volume-expansion-thumbnail.png
 ---
 
 ![VOLUME_EXPANSION](/img/docs/volume_expansion.svg "VOLUME_EXPANSION")
