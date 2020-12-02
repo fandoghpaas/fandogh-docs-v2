@@ -10,7 +10,7 @@ keywords:
   - ssl
   - certificate
   - "سکوی ابری فندق"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/domains/domains-thumbnail.png
 ---
 
 ## دامنه
