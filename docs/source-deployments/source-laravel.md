@@ -21,7 +21,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/laravel-thumbnail.png
 ---
 
 ## ![Laravel Framework](/img/docs/laravel-framework-banner.svg "Laravel Framework")

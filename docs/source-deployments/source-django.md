@@ -21,7 +21,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/django-project-thumbnail.png
 ---
 
 ## ![Django Project](/img/docs/Django-project-banner.svg "Django Project")

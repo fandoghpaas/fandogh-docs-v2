@@ -18,7 +18,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/static-website-thumbnail.png
 ---
 
 ## ![Static Website](/img/docs/static-website-banner.svg "Static Website")

@@ -19,7 +19,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/springboot-thumbnail.png
 ---
 
 ## ![Spring Boot](/img/docs/spring-boot-banner.svg "Spring Boot")

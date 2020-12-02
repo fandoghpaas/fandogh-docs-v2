@@ -21,7 +21,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/aspcore-thumbnail.png
 ---
 
 ## ![Core Framework](/img/docs/asp-core-banner.svg "Core Framework")

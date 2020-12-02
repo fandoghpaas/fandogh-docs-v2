@@ -19,7 +19,7 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/source-deployments/nodejs-thumbnail.png
 ---
 
 ## ![Node.js Framework](/img/docs/node-js-banner.svg "Node.js Framework")
