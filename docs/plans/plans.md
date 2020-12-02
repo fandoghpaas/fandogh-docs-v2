@@ -11,7 +11,7 @@ keywords:
   - فضانام
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/plans/resources-thumbnail.png
 ---
 ## تعریف منابع
 
