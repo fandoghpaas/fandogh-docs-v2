@@ -10,7 +10,7 @@ keywords:
   - fandogh-cli
   - cheat-sheet
   - "سکوی ابری فندق"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/cheat-sheet/cli-thumbnail.png
 ---
 
 ## مقدمه 
