@@ -13,7 +13,7 @@ keywords:
   - فضانام
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/secrets/secrets-thumbnail.png
 ---
 ## Environment-Secret
 

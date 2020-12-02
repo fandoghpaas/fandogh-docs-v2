@@ -17,7 +17,7 @@ keywords:
   - فضانام
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/fandogh.png
+image: /img/docs/thumbnails/secrets/registry-secret-thumbnail.png
 ---
 
 ![Docker Secret](/img/docs/secret_docker.svg "Docker Secret")
