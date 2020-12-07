@@ -88,7 +88,7 @@ fandogh image logs --image IMAGE_NAME --version IMAGE_VERSION
 دستورات مربوط به بخش image فقط محدود به init یا publish و logs نیست. کلیه دستورات مربوط به بخش image در ادامه توضیح داده شده‌اند.
 
 :::tip fandogh-cli
-شما همچنین می توانید با وارد کردن دستور`fandogh image --help`  در fandogh-cli لیست دستورات موجود را مشاهده کنید.
+شما همچنین می توانید با وارد کردن دستور`fandogh image --help` در fandogh-cli لیست دستورات موجود را مشاهده کنید.
 :::
 
 ### init
