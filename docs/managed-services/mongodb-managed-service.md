@@ -166,6 +166,19 @@ spec:
       memory: 512Mi
 ```
 
+## ایجاد backup از دیتابیس MongoDB
+در صورتی که نیاز ایجاد یک فایل بکاپ از دیتابیس MongoDB خود داشته باشید، می‌توانید این عملیات را با استفاده از داشبورد مدیریتی Mongo Dashboard انجام دهید.
+
+:::note توجه
+توجه داشته باشید برای اینکه بتوانید از داشبورد مدیریتی Mongo Dashboard استفاده کنید، باید مقدار پارامتر mongo_dashboard_enabled را برابر با true قرار داده باشید.
+:::
+
+بعد از ورود به داشبورد مدیریتی MongoDB از منو سمت چپ گزینه بکاپ را انتخاب نمایید.
+سپس در صفحه نمایش داده شده مطابق تصویر زیر، argumentهای مورد نیاز را انتخاب کرده و در هر فیلد مقدار آن‌ها را وارد نمایید.
+در قسمت `Out` میتوانید مشخص کنید فایل بکاپ در چه مسیری ذخیره شود که در تصویر زیر ما این مسیر را برابر با `/dump_files/` قرار داده‌ایم.
+
+![MongoDB Backup](/img/docs/mongodb-backup-nosqlite.png "MongoDB Backup")
+
 [mongodb_site]: https://mongodb.com
 [internal_service]: /docs/services/services#%DB%B1--%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%DB%8C%D8%A7-internal-service
 [dedicated_volume]: /docs/volumes/dedicated-volume
