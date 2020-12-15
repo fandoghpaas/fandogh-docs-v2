@@ -41,7 +41,7 @@ image: /img/docs/thumbnails/managed-services/mongodb-managed-service-thumbnail.p
 |volume_browser_enabled| boolean| false| آیا سرویس مدیریت Dedicated Volume برای این سرویس ساخته شود یا خیر|
 
 :::tip راهنمایی
-توجه داشته باشید که سرویس ‌MongoDB برای آنکه بتواند داده‌های خود را ذخیره کند و از سرعت و کارایی مناسبی برخوردار باشد باید حتما به یک [dedicated volumes] [dedicated_volumes] متصل شود در غیر این صورت با خطا مواجه شده و سرویس به درستی عمل نمی‌کند.
+توجه داشته باشید که سرویس ‌MongoDB برای آنکه بتواند داده‌های خود را ذخیره کند و از سرعت و کارایی مناسبی برخوردار باشد باید حتما به یک [Dedicated Volume] [dedicated_volume] متصل شود در غیر این صورت با خطا مواجه شده و سرویس به درستی عمل نمی‌کند.
 :::
 
 :::note توجه
@@ -71,7 +71,7 @@ image: /img/docs/thumbnails/managed-services/mongodb-managed-service-thumbnail.p
 
 ## افزودن دامنه دلخواه
 اگر قصد داشته باشید دامنه یا دامنه‌های دلخواهتان را به سرویس مدیریت شده مورد نظر متصل نمایید، از طریق این بخش می‌توانید لیست این دامنه‌ها را مشخص کنید.<br/>
-برای مثال فرض کنید تمایل دارید سرویس مدیریت شده مورد نظر شما روی  [domain.com] [domain]  و  [www.domain.com] [www_doamin]  در دسترس باشد:
+برای مثال فرض کنید تمایل دارید سرویس مدیریت شده مورد نظر شما روی  [domain.com][domain] و [www.domain.com][www_domain]  در دسترس باشد:
 
 ```yaml
   domains:
