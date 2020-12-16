@@ -38,7 +38,7 @@ SQL Server با Transact-SQL (T-SQL) پیوند و ارتباط نزدیکی د�
 |volume_browser_enabled| boolean| false| آیا سرویس مدیریت Dedicated Volume برای این سرویس ساخته شود یا خیر|
 
 :::tip راهنمایی
-توجه داشته باشید که سرویس ‌MSSQL Server برای آنکه بتواند داده‌های خود را ذخیره کند و از سرعت و کارایی مناسبی برخوردار باشد باید حتما به یک [dedicated volumes] [dedicated_volumes] متصل شود در غیر این صورت با خطا مواجه شده و سرویس به درستی عمل نمی‌کند.
+توجه داشته باشید که سرویس ‌MSSQL Server برای آنکه بتواند داده‌های خود را ذخیره کند و از سرعت و کارایی مناسبی برخوردار باشد باید حتما به یک [dedicated volumes][dedicated_volumes] متصل شود در غیر این صورت با خطا مواجه شده و سرویس به درستی عمل نمی‌کند.
 :::
 
 :::caution نکته
@@ -152,7 +152,7 @@ spec:
 
 [microsoft_document]: https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash#requirements
 [internal_service]: /docs/services/services#%DB%B1--%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%DB%8C%D8%A7-internal-service
-[dedicated_volume]: /docs/volumes/dedicated-volume
+[dedicated_volumes]: /docs/volumes/dedicated-volume
 [www_domain]: http://www.domain.com
 [domain]: http://domain.com
 [service_manifest]: /docs/services/service-manifest

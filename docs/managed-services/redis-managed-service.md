@@ -140,7 +140,7 @@ spec:
 ```
 
 [redis_site]: https://redis.io
-[dedicated_volume]: /docs/volumes/dedicated-volume
+[dedicated_volumes]: /docs/volumes/dedicated-volume
 [www_domain]: http://www.domain.com
 [domain]: http://domain.com
 [service_manifest]: /docs/services/service-manifest

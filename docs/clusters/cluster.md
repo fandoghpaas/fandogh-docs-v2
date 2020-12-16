@@ -10,7 +10,7 @@ keywords:
   - "سکوی ابری فندق"
 image: /img/docs/thumbnails/clusters/single-multi-cluster-fandoghpaas-thumbnail.png
 ---
-## کلاستر (Cluster) چیست؟
+## کلاستر )Cluster( چیست؟
 
 کلاستر )Cluster( در حالت تحت الفظی، به معنی خوشه یا گروه است.<br/>
 در سکوی ابری فندق منظور از کلاستر محیطی است متمرکز که تمام زیرساخت‌های مورد نیاز سکو در آن‌ محیط حاضر بوده و برای کاربر قابل استفاده است.

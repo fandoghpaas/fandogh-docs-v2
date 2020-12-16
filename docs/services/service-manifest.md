@@ -68,9 +68,9 @@ spec:
  ### image
 این فیلد باید حاوی نام و ورژن ایمیجی باشد که مایلید سرویس از روی آن ساخته شود. <br/>
 به عنوان مثال: <br/>
-     - `my_api:7.9.1` یعنی ورژن 7.9.1 از ایمیج my_api  که [قبلا در فندق منتشر] [fandogh_images] کرده اید. <br/>
-     - `library/nginx:latest` یعنی ورژن latest  از ایمیج nginx که در رجسیتری docker hub قرار دارد. <br/>
-     -‍ `docker-registry.my-company.com:5000/my-api:2.3` یعنی ورژن 2.3 از ایمیجی که در یک رجیستری دلخواه قبلا push کرده‌اید. 
+* `my_api:7.9.1` یعنی ورژن 7.9.1 از ایمیج my_api  که [قبلا در فندق منتشر][fandogh_images] کرده اید. <br/>
+* `library/nginx:latest` یعنی ورژن latest  از ایمیج nginx که در رجسیتری docker hub قرار دارد. <br/>
+* `docker-registry.my-company.com:5000/my-api:2.3` یعنی ورژن 2.3 از ایمیجی که در یک رجیستری دلخواه قبلا push کرده‌اید. 
 
 :::caution نکته
 توجه داشته باشید اگر این رجیستری private است و نیاز به credential دارد [باید secret مورد نیاز را
@@ -312,7 +312,7 @@ readiness_probe برای سرویس‌هایی که زمان نیاز دارند
 
 ## فیلد spec در ManagedServiceها
  #### service_name
-از طریق این فیلد مشخص می‌کنید که قصد ایجاد کدام یک از managed-service های فندق را دارید؛ برای مشاهده انواع managed-service‌ها به [این بخش] [managed_service] رجوع کنید.
+از طریق این فیلد مشخص می‌کنید که قصد ایجاد کدام یک از managed-service های فندق را دارید؛ برای مشاهده انواع managed-service‌ها به [این بخش] [managed_services] رجوع کنید.
  ### version
 از طریق این فیلد مشخص می‌کنید کدام ورژن برای سرویس انتخاب شده دیپلوی شود.
 
