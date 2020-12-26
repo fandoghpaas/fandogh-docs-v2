@@ -102,7 +102,7 @@ CACHES = {
 :::
 
 ### تنظیمات per-site cache
-بعد از آنکه قابلیت `Cache` را داخل settings تنظیم کردید، نوبت به استفاده از آن میرسد. \
+بعد از آنکه قابلیت `Cache` را داخل settings تنظیم کردید، نوبت به استفاده از آن میرسد.<br/>
 برای این کار باید داخل فایل `settings.py` در بلاک مربوط به `MIDDLEWARE` تنظیمات زیر را به ترتیبی که مشاهده می‌کنید وارد نمایید:
 
 ```yaml title='settings.py'
@@ -119,7 +119,7 @@ MIDDLEWARE = [
 * CACHE_MIDDLEWARE_KEY_PREFIX
 
 ### تنظیمات per-page cache
-حال اگر هر متد از `view` اپلیکیشن جانگویی خود را با اسم `@cache_page` نشانه‌گذاری یا همان annotate نمایید، پاسخ‌های آن view به مدت `CACHE_MIDDLEWARE_SECONDS` که در settings قرار داده‌اید Cache خواهد شد و در بازه مشخص شده هر درخواستی که به سمت این view می‌آید بدون آنکه query جدیدی به دیتابیس شما زده شود، پاسخ موجود از روی Memcached فراخوانی شده و به کاربر ارسال می‌شود.
+حال اگر هر متد از `view` اپلیکیشن جانگویی خود را با اسم `cache_page@` نشانه‌گذاری یا همان annotate نمایید، پاسخ‌های آن view به مدت `CACHE_MIDDLEWARE_SECONDS` که در settings قرار داده‌اید Cache خواهد شد و در بازه مشخص شده هر درخواستی که به سمت این view می‌آید بدون آنکه query جدیدی به دیتابیس شما زده شود، پاسخ موجود از روی Memcached فراخوانی شده و به کاربر ارسال می‌شود.
 
 ```python title='ptyhon view.py'
 from django.views.decorators.cache import cache_page
