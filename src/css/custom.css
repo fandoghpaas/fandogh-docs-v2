@@ -457,3 +457,11 @@ a[href*="/edit/"] > svg {
   margin-right: 0 !important;
   margin-left: .3em !important;
 }
+
+p {
+  line-height: 2;
+}
+
+div.token-line > span {
+  font-style: normal !important;
+}
