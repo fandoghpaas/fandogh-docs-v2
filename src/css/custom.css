@@ -462,6 +462,12 @@ p {
   line-height: 2;
 }
 
-span {
+div.token-line > span {
   font-style: normal !important;
+}
+
+div.token-line > span:contains["@"] {
+
+  color: yellow !important;
+
 }
