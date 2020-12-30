@@ -458,7 +458,7 @@ a[href*="/edit/"] > svg {
   margin-left: .3em !important;
 }
 
-p {
+p,li {
   line-height: 2;
 }
 
