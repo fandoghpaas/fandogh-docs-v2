@@ -10,6 +10,12 @@ import OriginalFooter from '@theme-original/Footer';
 
 const blog_posts = [
   {
+   title: 'استفاده از MinIO در پروژه‌های Django',
+   imageUrl: 'https://blog.fandogh.cloud/img/blog/django-minio.svg',
+   slug: 'در این بلاگ پست به این موضوع می‌پردازیم که Object Storageها چه هستند و با ذکر یک مثال واقعی، استفاده از آن‌ها را در یک پروژه جانگو شرح می‌دهیم.',
+   url: 'https://blog.fandogh.cloud/blog/2021/01/01/minio-in-django-projects'
+  },
+  {
    title: 'داستان یک تصمیم سخت',
    imageUrl: 'https://blog.fandogh.cloud/img/blog/fandoghpaas-community-banner.svg',
    slug: 'همانطور که همه در جریان هستیم، شرایط فعلی اقتصادی کشور عزیزمان ایران تبدیل به گلوگاهی بسیار تنگ و سخت برای تمام اقشار جامعه شده است و کمتر کسی پیدا می‌شود که از این شرایط رضایت داشته باشد.',
@@ -20,14 +26,6 @@ const blog_posts = [
    imageUrl: 'https://blog.fandogh.cloud/img/blog/fandogh-paas-banner.svg',
    slug: 'در این پست تلاش کردیم به صورت خلاصه زیرساخت‌های ابری رو برای عموم توضیح بدیم.',
    url: 'https://blog.fandogh.cloud/blog/2019/10/09/cloud-infra-simple'
-  },
-  {
-   title: 'چرخه CI/CD با استفاده از گیت‌لب و فندق',
-   imageUrl: 'https://blog.fandogh.cloud/img/blog/gitlab-ci-cd-logo.png',
-   slug: (<>
-     داشتن چرخه CI/CD خودکار در یک پروژه امروزه تبدیل به یک ضرورت شده و اغلب تیم‌ها با استفاده از ابزار‌های موجود در مراحل ابتدایی پروژه چرخه CI/CD را راه‌اندازی می‌کنند و از مزایای آن بهره می‌برند.
-   </>),
-   url: 'https://blog.fandogh.cloud/blog/2019/02/08/how-to-gitlab-ci'
   },
 ]
 
