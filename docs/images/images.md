@@ -10,6 +10,8 @@ keywords:
   - داکر
   - image
   - docker image
+  - dockerignore
+  - fandoghignore
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
 image: /img/docs/thumbnails/images/images-thumbnail.png
