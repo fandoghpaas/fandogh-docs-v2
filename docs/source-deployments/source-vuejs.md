@@ -1,14 +1,15 @@
 ---
 id: source-vuejs
-title: پروژهایvuejs
-sidebar_label: پروژه‌های vuejs
-description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Vue Js Project بدون نیاز به دانش docker می‌پردازیم.'
+title: پروژهایVue.js
+sidebar_label: پروژه‌های Vue.js
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Vue.js Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
   - "سکوی ابری"
   - داکر
   - service
   - container
   - vue JS
+  - Vue.js
   - framework
   - "اجرای مستقیم کد"
   - "source deployment"
@@ -22,7 +23,7 @@ image: /img/docs/thumbnails/source-deployments/aspcore-thumbnail.png
 ## ![Core Framework](/img/docs/asp-core-banner.svg "Core Framework")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
-ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `VueJs Project` بدون نیاز به دانش docker می‌پردازیم.
+ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `Vue.js Project` بدون نیاز به دانش docker می‌پردازیم.
 
 :::tip fandogh-cli setup
 اگر هنوز fandogh-cli بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
@@ -34,7 +35,7 @@ image: /img/docs/thumbnails/source-deployments/aspcore-thumbnail.png
 Service Name: myVuejsProject
 ```
 
- بعد از وارد کردن نام Service  برای شما گزینه هایی که بدون نیاز به دانش docker قابل اجرا هستند نمایش داده می شود. از بین گزینه های نمایش داده شده گزینه **Vuejs Project** را انتخاب کنید.
+ بعد از وارد کردن نام Service  برای شما گزینه هایی که بدون نیاز به دانش docker قابل اجرا هستند نمایش داده می شود. از بین گزینه های نمایش داده شده گزینه **Vue.js Project** را انتخاب کنید.
 
 :::note توجه
 توجه داشته باشید برای انتخاب، شماره گزینه مورد نظر را وارد کنید.
@@ -45,7 +46,7 @@ Service Name: myVuejsProject
 -[2] Django Project
 -[3] Laravel Project
 -[4] ASP.NET core Project
--[5] VueJs Project
+-[5] Vue.js Project
 Please choose one of the project types above:
 ```
   
