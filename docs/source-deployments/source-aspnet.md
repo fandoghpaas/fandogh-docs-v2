@@ -19,8 +19,10 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/source-deployments/aspcore-thumbnail.png
+image: /img/docs/thumbnails/source-deployments/aspnet-thumbnail.png
 ---
+
+## ![ASP.NET](/img/docs/asp-net-banner.svg "ASP.NET")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
 ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `ASP.NET Project` بدون نیاز به دانش docker می‌پردازیم.

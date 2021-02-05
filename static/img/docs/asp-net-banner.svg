@@ -2,7 +2,7 @@
 <svg width="753px" height="153px" viewBox="0 0 753 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>aps-net-banner</title>
     <defs>
-        <linearGradient x1="0.25781251%" y1="49.9898758%" x2="133.446935%" y2="51.1504517%" id="linearGradient-1">
+        <linearGradient x1="0.25781251%" y1="49.9783738%" x2="133.446935%" y2="52.4574739%" id="linearGradient-1">
             <stop stop-color="#1A0FC7" offset="0%"></stop>
             <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
             <stop stop-color="#51D4EC" offset="100%"></stop>
@@ -26,8 +26,8 @@
         </linearGradient>
     </defs>
     <g id="aps-net-banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="ASP.NET-5.0" fill="url(#linearGradient-1)" fill-rule="nonzero" font-family="Futura-Bold, Futura" font-size="50" font-weight="bold">
-            <tspan x="319" y="60">ASP.NET 5.0</tspan>
+        <text id="ASP.NET" fill="url(#linearGradient-1)" fill-rule="nonzero" font-family="Futura-Bold, Futura" font-size="50" font-weight="bold">
+            <tspan x="319" y="60">ASP.NET</tspan>
         </text>
         <line x1="319" y1="89.5" x2="752" y2="89.5" id="Line-6" stroke="url(#linearGradient-2)" stroke-width="2" stroke-linecap="round"></line>
         <g id="Group" fill-rule="nonzero">
