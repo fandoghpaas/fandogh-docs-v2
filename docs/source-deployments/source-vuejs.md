@@ -8,8 +8,8 @@ keywords:
   - داکر
   - service
   - container
-  - vue JS
-  - Vue.js
+  - "vue JS"
+  - "Vue.js"
   - framework
   - "اجرای مستقیم کد"
   - "source deployment"
@@ -17,10 +17,10 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/source-deployments/aspcore-thumbnail.png
+image: /img/docs/thumbnails/source-deployments/vuejs-thumbnail.png
 ---
 
-## ![Core Framework](/img/docs/asp-core-banner.svg "Core Framework")
+![Vue.JS](/img/docs/vuejs-banner.svg "Vue.JS")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
 ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `Vue.js Project` بدون نیاز به دانش docker می‌پردازیم.
