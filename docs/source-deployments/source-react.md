@@ -42,7 +42,7 @@ Service Name: myReactProject
 توجه داشته باشید برای انتخاب، شماره گزینه مورد نظر را وارد کنید.
 ::::
 
-```yaml
+```yaml {6}
 -[1] Static Website
 -[2] Django Project
 -[3] Laravel Project
