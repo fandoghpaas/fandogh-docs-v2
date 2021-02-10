@@ -7,7 +7,7 @@ module.exports = {
     "ایمیج‌ها": ['images/images'],
     "سرویس‌ها": ['services/services', 'services/service-manifest', 'services/service-lifecycle-handlers', 'services/exec', 'services/rollback', 'services/service-archive'],
     "اجرای مستقیم کدها": ['source-deployments/source-intro', 'source-deployments/source-static', 'source-deployments/source-django', 'source-deployments/source-laravel', 
-    'source-deployments/source-aspnetcore', 'source-deployments/source-nodejs', 'source-deployments/source-spring-boot','source-deployments/source-react'],
+    'source-deployments/source-aspnetcore', 'source-deployments/source-nodejs', 'source-deployments/source-spring-boot','source-deployments/source-react','source-deployments/source-aspnet'],
     "سرویس‌های مدیریت شده": ['managed-services/managed-services-intro', 'managed-services/gitlab-managed-service', 'managed-services/gitlab-runner-managed-service', 
     'managed-services/mysql-managed-service', 'managed-services/postgresql-managed-service', 'managed-services/mssql-managed-service',
     'managed-services/mongodb-managed-service', 'managed-services/elasticsearch-managed-service', 'managed-services/kibana-managed-service', 

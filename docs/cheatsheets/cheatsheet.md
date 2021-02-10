@@ -129,6 +129,12 @@ fandogh service list
 fandogh service destroy --name SERVICE_NAME
 ```
 
+حذف و آرشیو سرویس با نام `SERVICE_NAME`:
+
+```bash
+fandogh service destroy --name SERVICE_NAME --archived
+```
+
 ### جزئیات سرویس و مانیفست
 
 دریافت مانیفست سرویس با نام `SERVICE_NAME`:
@@ -165,6 +171,24 @@ fandogh service logs -f --name SERVICE_NAME
 
 ```bash
 fandogh service logs --name SERVICE_NAME --with-timestamp
+```
+
+### آرشیو سرویس
+
+ساخت سرویس از روی آرشیو با نام `ARCHIVE_NAME`:
+```bash
+fandogh service apply --from-archive ARCHIVE_NAME
+```
+دریافت لیست سرویس‌های آرشیو شده:
+
+```bash
+fandogh service archive list
+```
+
+حذف آرشیو سرویس با نام `ARCHIVE_NAME`:
+
+```bash
+fandogh service archive delete --archive -name
 ```
 
 ### تاریخچه و Rollback

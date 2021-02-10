@@ -10,6 +10,12 @@ import OriginalFooter from '@theme-original/Footer';
 
 const blog_posts = [
   {
+   title: 'استفاده از Redis در پروژه‌های Django',
+   imageUrl: 'https://blog.fandogh.cloud/img/blog/django-redis-banner.svg',
+   slug: 'در این پست تلاش کردیم به صورت خلاصه مفاهیم Cache و نحوه استفاده از سرویس Redis در پروژه Django را توضیح دهیم..',
+   url: 'https://blog.fandogh.cloud/blog/2021/01/29/django-redis'
+  },
+  {
    title: 'استفاده از MinIO در پروژه‌های Django',
    imageUrl: 'https://blog.fandogh.cloud/img/blog/django-minio.svg',
    slug: 'در این بلاگ پست به این موضوع می‌پردازیم که Object Storageها چه هستند و با ذکر یک مثال واقعی، استفاده از آن‌ها را در یک پروژه جانگو شرح می‌دهیم.',
@@ -20,13 +26,7 @@ const blog_posts = [
    imageUrl: 'https://blog.fandogh.cloud/img/blog/fandoghpaas-community-banner.svg',
    slug: 'همانطور که همه در جریان هستیم، شرایط فعلی اقتصادی کشور عزیزمان ایران تبدیل به گلوگاهی بسیار تنگ و سخت برای تمام اقشار جامعه شده است و کمتر کسی پیدا می‌شود که از این شرایط رضایت داشته باشد.',
    url: 'https://blog.fandogh.cloud/blog/2020/11/02/hard-decision'
-  },
-  {
-   title: 'زیرساخت ابری به زبان ساده',
-   imageUrl: 'https://blog.fandogh.cloud/img/blog/fandogh-paas-banner.svg',
-   slug: 'در این پست تلاش کردیم به صورت خلاصه زیرساخت‌های ابری رو برای عموم توضیح بدیم.',
-   url: 'https://blog.fandogh.cloud/blog/2019/10/09/cloud-infra-simple'
-  },
+  }
 ]
 
 const features = [
