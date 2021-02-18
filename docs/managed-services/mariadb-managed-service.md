@@ -23,24 +23,24 @@ image: /img/docs/thumbnails/managed-services/mysql-phpmyadmin-managed-service-th
 MariaDB یکی از محبوب ترین  RDMBS های open source است که طرفداران خیلی زیادی دارد. <br/>
 در جدول زیر تفاوت های عمده ای که بین MariaDB و MySQL وجود دارد را مشاهده می فرمایید:
 
-|Parameter|MariaDB|MySQL|
+|پارامتر|MariaDB|MySQL|
 |:---:	|:---:	|:---:	|
-|Storage Engines|MariaDB has 12 new storage engines that you won't find in MySQL.|It has fewer options for storage compared to MariaDB.|
-| Speed Improvements |MariaDB shows an improved speed when compared to MySQL.|MySQL exhibits a slower speed when compared to MariaDB. |
-|Initial release|2009|1995|
-|Faster cache/indexes|With the Memory storage engine of MariaDB, an INSERT statement can be completed 24% faster than in the standard MySQL. |The memory storage engine of MySQL is slower compared to that MariaDB. |
-|Larger and Faster Connection Pool |MariaDB comes with an advanced thread pool capable of running faster and supporting up to 200,000+ connections. |The thread pool provided by MySQL cannot support up to 200,000 connections per time. |
-|Improved Replication |In MariaDB, replication can be done safer and faster. Updates can also be done 2x faster compared to the traditional MySQL. |MySQL's community edition allows a static number of threads to be connected. MySQL's enterprise plan comes with thread capabilities. |
-|New Features/Extensions|MariaDB comes with new features and extensions including the JSON, WITH and KILL statements. |The new MariaDB features are not provided in MySQL. |  
-|Missing Features |MariaDB lacks some of the features provided by the MySQL enterprise edition. To address this, it offers alternative open-source plugins. |The Enterprise Edition of MySQL uses a proprietary code. Only users of MySQL Enterprise Edition have access to this. |
-|Priority code |MariaDB doesn't allow access to this propriety content and is a closed source. |MySQL uses some proprietary code in its Enterprise Edition. |
-|Data Masking |No|Yes|
-|Dynamic columns |No|Yes|
+|موتورهای ذخیره سازی |<div dir="rtl">MariaDB دارای 12 موتور ذخیره سازی جدید است که در MySQL پیدا نخواهید کرد.</div>|در مقایسه با MariaDB گزینه کمتری برای ذخیره سازی دارد.|
+| بهبود سرعت |<div dir="rtl">MariaDB در مقایسه با MySQL سرعت بهبود یافته ای را نشان می دهد. </div>|<div dir="rtl">MySQL در مقایسه با MariaDB سرعت کمتری از خود نشان می دهد. </div>|
+|انتشار اولیه|2009|1995|
+|Faster cache/indexes|با استفاده از موتور ذخیره سازی حافظه MariaDB ، بیانیه INSERT می تواند 24٪ سریعتر از MySQL استاندارد تکمیل شود. |موتور ذخیره سازی حافظه MySQL در مقایسه با MariaDB کندتر است.|
+|Larger and Faster Connection Pool |<div dir="rtl">MariaDB دارای یک استخر نخ پیشرفته است که می تواند با سرعت بیشتری کار کند و از 200000+ اتصال پشتیبانی می‌کند.</div>|استخر نخ ارائه شده توسط MySQL نمی تواند تا 200،000 اتصال در هر زمان را پشتیبانی کند.|
+|Improved Replication |در MariaDB ، همانند سازی می تواند با اطمینان و سریعتر انجام شود. همچنین می توان به روزرسانی ها را در مقایسه با MySQL سنتی 2 برابر سریعتر انجام داد. |MySQL's community edition allows a static number of threads to be connected. MySQL's enterprise plan comes with thread capabilities. |
+|New Features/Extensions|<div dir="rtl">MariaDB همراه با ویژگی ها و پسوندهای جدید از جمله دستورات JSON ، WITH و KILL است.</div>|ویژگی های جدید MariaDB در MySQL ارائه نشده است.|  
+|Missing Features |<div dir="rtl">MariaDB فاقد برخی از ویژگی های ارائه شده توسط نسخه سازمانی MySQL است. برای پرداختن به این موضوع ، پلاگین های منبع باز جایگزین ارائه می دهد</div>|نسخه Enterprise از MySQL از یک کد اختصاصی استفاده می کند. فقط کاربران MySQL Enterprise Edition به این دسترسی دارند.|
+|Priority code |<div dir="rtl">MariaDB اجازه دسترسی به این محتوای مناسب را نمی دهد و یک منبع بسته است.</div> |<div dir="rtl">MySQL از کد اختصاصی در Enterprise Edition خود استفاده می کند.</div>|
+|پوشاندن اطلاعات|No|Yes|
+|ستون های پویا |No|Yes|
 |Monitoring|SQLyog|MySQL workbench |
-|Routing|MariaDB MaxScale |Mysql Router |
-|Analytics|MaraiDB ColumnStore |No|
+|مسیریابی|MariaDB MaxScale |Mysql Router |
+|تجزیه و تحلیل|MaraiDB ColumnStore |No|
 |Secondary database model |Document store and Graph DBMS |Document store |
-|Famous companies using |Nrise, Accenture, Docplanner, Grooveshark. |Airbnb, Uber Technogloeis, Netflix, Dropbox. |
+|شرکت‌های معروف|Nrise, Accenture, Docplanner, Grooveshark. |Airbnb, Uber Technogloeis, Netflix, Dropbox. |
 
 این managed-service از دو image متفاوت تشکیل شده‌است که یکی خود MariaDB و دیگری PHPMyAdmin که یک رابط کاربری تحت وب برای MariaDB است.<br/>
 برای دیپلوی کردن یک سرویس MariaDB شما می‌توانید موارد زیر را هنگام دیپلوی مشخص کنید:
