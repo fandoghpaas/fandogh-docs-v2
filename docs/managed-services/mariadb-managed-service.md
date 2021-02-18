@@ -49,7 +49,7 @@ MariaDB یکی از محبوب ترین  RDMBS های open source است که ط
 |---	|---	|---	|---	|
 |service_name| string| mariadb| نامی که برای سرویس مایلید در نظر گرفته شود|
 |phpmyadmin_enabled|boolean | true | فعال یا غیرفعال بودن PHPMyAdmin
-|mysql_root_password| string| root| رمز عبور یوزر root دیتابیس|
+|mariadb_root_password| string| root| رمز عبور یوزر root دیتابیس|
 |volume_name| string| None| نام volumeای که به سرویس وصل می‌شود|
 |volume_browser_enabled| boolean| false| آیا سرویس مدیریت Dedicated Volume برای این سرویس ساخته شود یا خیر|
 
@@ -66,7 +66,7 @@ MariaDB یکی از محبوب ترین  RDMBS های open source است که ط
 ```bash
 fandogh managed-service deploy mariadb 10.5.8 \
      -c service_name=mydatabase \
-     -c mysql_root_password=12341234\
+     -c mariadb_root_password=12341234\
      -c phpmyadmin_enabled=false
 ```
 
@@ -109,7 +109,7 @@ spec:
   parameters:
     - name: phpmyadmin_enabled
       value: true
-    - name: mysql_root_password
+    - name: mariadb_root_password
       value: some_long_unpredictable_string
     - name: volume_name
       value: YOUR_VOLUME_NAME
@@ -137,7 +137,7 @@ spec:
   parameters:
     - name: phpmyadmin_enabled
       value: true
-    - name: mysql_root_password
+    - name: mariadb_root_password
       value: some_long_unpredictable_string
     - name: volume_name
       value: YOUR_VOLUME_NAME
