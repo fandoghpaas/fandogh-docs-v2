@@ -2,7 +2,7 @@
 id: mariadb-managed-service
 title: MariaDB + phpMyAdmin
 sidebar_label: MariaDB + phpMyAdmin
-description: 'MariaDB یکی از محبوب‌ترین RDBMS‌های امروزی است که طرفداران زیادی در سرتاسر دنیا دارد؛ به همین دلیل MariaDB به عنوان اولین managed-service به فندق اضافه شد.'
+description: 'سرویس MariaDB یکی از محبوب ترین RDMBS های open source است که طرفداران خیلی زیادی دارد. این سرویس اگرچه از زیرشاخه‌های MySQL حساب می‌شود اما سعی شده است تا در آن جدا از دسترسی آزاد، بهبودهایی ایجاد شود و تا حد امکان نواقص و کمبودهای موجود در MySQL جبران شود.'
 keywords:
   - "سکوی ابری"
   - "سرویس‌های مدیریت شده"
@@ -20,7 +20,9 @@ image: /img/docs/thumbnails/managed-services/mysql-phpmyadmin-managed-service-th
 
 ![MySQL + PHPMyAdmin](/img/docs/mysql-phpmyadmin.svg "MySQL + PHPMyAdmin")
 
-MariaDB یکی از محبوب ترین  RDMBS های open source است که طرفداران خیلی زیادی دارد. <br/>
+
+
+سرویس MariaDB یکی از محبوب ترین RDMBS های open source است که طرفداران خیلی زیادی دارد. این سرویس اگرچه از زیرشاخه‌های MySQL حساب می‌شود اما سعی شده است تا در آن جدا از دسترسی آزاد، بهبودهایی ایجاد شود و تا حد امکان نواقص و کمبودهای موجود در MySQL جبران شود.<br/>
 در جدول زیر تفاوت های عمده ای که بین MariaDB و MySQL وجود دارد را مشاهده می فرمایید:
 
 |پارامتر|MariaDB|MySQL|
