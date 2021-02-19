@@ -30,12 +30,12 @@ image: /img/docs/thumbnails/managed-services/mysql-phpmyadmin-managed-service-th
 |موتورهای ذخیره سازی |<div dir="rtl">MariaDB دارای 12 موتور ذخیره سازی جدید است که در MySQL پیدا نخواهید کرد.</div>|در مقایسه با MariaDB گزینه کمتری برای ذخیره سازی دارد.|
 | بهبود سرعت |<div dir="rtl">MariaDB در مقایسه با MySQL سرعت بهبود یافته ای را نشان می دهد. </div>|<div dir="rtl">MySQL در مقایسه با MariaDB سرعت کمتری از خود نشان می دهد. </div>|
 |انتشار اولیه|2009|1995|
-|Faster cache/indexes|با استفاده از موتور ذخیره سازی حافظه MariaDB ، بیانیه INSERT می تواند 24٪ سریعتر از MySQL استاندارد تکمیل شود. |موتور ذخیره سازی حافظه MySQL در مقایسه با MariaDB کندتر است.|
-|Larger and Faster Connection Pool |<div dir="rtl">MariaDB دارای یک استخر نخ پیشرفته است که می تواند با سرعت بیشتری کار کند و از 200000+ اتصال پشتیبانی می‌کند.</div>|استخر نخ ارائه شده توسط MySQL نمی تواند تا 200،000 اتصال در هر زمان را پشتیبانی کند.|
-|Improved Replication |در MariaDB ، همانند سازی می تواند با اطمینان و سریعتر انجام شود. همچنین می توان به روزرسانی ها را در مقایسه با MySQL سنتی 2 برابر سریعتر انجام داد. |MySQL's community edition allows a static number of threads to be connected. MySQL's enterprise plan comes with thread capabilities. |
+|Faster cache/indexes|با استفاده از موتور ذخیره سازی حافظه MariaDB ، دستورالعمل INSERT می تواند 24٪ سریعتر از MySQL استاندارد تکمیل شود. |موتور ذخیره سازی حافظه MySQL در مقایسه با MariaDB کندتر است.|
+|Larger and Faster Connection Pool |<div dir="rtl">MariaDB دارای یک thread pool پیشرفته است که می تواند با سرعت بیشتری کار کند و از 200000+ اتصال پشتیبانی می‌کند.</div>|<div dir="rtl">thread pool ارائه شده توسط MySQL نمی تواند تا 200،000 اتصال در زمان را پشتیبانی کند.</div>|
+|Improved Replication |در replication, MariaDB می تواند با اطمینان و سریعتر انجام شود. همچنین می توان به روزرسانی ها را در مقایسه با MySQL سنتی 2 برابر سریعتر انجام داد. |نسخه  MySQL community به شما اجازه می دهد با تعداد ثابتی از thread  متصل شوید.|
 |New Features/Extensions|<div dir="rtl">MariaDB همراه با ویژگی ها و پسوندهای جدید از جمله دستورات JSON ، WITH و KILL است.</div>|ویژگی های جدید MariaDB در MySQL ارائه نشده است.|  
-|Missing Features |<div dir="rtl">MariaDB فاقد برخی از ویژگی های ارائه شده توسط نسخه سازمانی MySQL است. برای پرداختن به این موضوع ، پلاگین های منبع باز جایگزین ارائه می دهد</div>|نسخه Enterprise از MySQL از یک کد اختصاصی استفاده می کند. فقط کاربران MySQL Enterprise Edition به این دسترسی دارند.|
-|Priority code |<div dir="rtl">MariaDB اجازه دسترسی به این محتوای مناسب را نمی دهد و یک منبع بسته است.</div> |<div dir="rtl">MySQL از کد اختصاصی در Enterprise Edition خود استفاده می کند.</div>|
+|Missing Features |<div dir="rtl">MariaDB فاقد برخی از ویژگی های ارائه شده توسط نسخه سازمانی MySQL است. برای رفع این مورد، پلاگین های open source را جایگزین کرده است.</div>|نسخه Enterprise از MySQL از یک کد اختصاصی استفاده می کند. فقط کاربران MySQL Enterprise Edition به این کد دسترسی دارند.|
+|Priority code |<div dir="rtl">MariaDB اجازه دسترسی به محتوای اختصاصی را نمی دهد و یک منبع بسته است.</div> |<div dir="rtl">MySQL از کد اختصاصی در Enterprise Edition خود استفاده می کند.</div>|
 |پوشاندن اطلاعات|No|Yes|
 |ستون های پویا |No|Yes|
 |Monitoring|SQLyog|MySQL workbench |
