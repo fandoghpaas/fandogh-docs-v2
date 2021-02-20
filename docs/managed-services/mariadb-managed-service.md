@@ -35,14 +35,14 @@ image: /img/docs/thumbnails/managed-services/mariadb-phpmyadmin-managed-service-
 |Improved Replication |در replication, MariaDB می تواند با اطمینان و سریعتر انجام شود. همچنین می توان به روزرسانی ها را در مقایسه با MySQL سنتی 2 برابر سریعتر انجام داد. |نسخه  MySQL community به شما اجازه می دهد با تعداد ثابتی از thread  متصل شوید.|
 |New Features/Extensions|<div dir="rtl">MariaDB همراه با ویژگی ها و پسوندهای جدید از جمله دستورات JSON ، WITH و KILL است.</div>|ویژگی های جدید MariaDB در MySQL ارائه نشده است.|  
 |Missing Features |<div dir="rtl">MariaDB فاقد برخی از ویژگی های ارائه شده توسط نسخه سازمانی MySQL است. برای رفع این مورد، پلاگین های open source را جایگزین کرده است.</div>|نسخه Enterprise از MySQL از یک کد اختصاصی استفاده می کند. فقط کاربران MySQL Enterprise Edition به این کد دسترسی دارند.|
-|Priority code |<div dir="rtl">MariaDB اجازه دسترسی به محتوای اختصاصی را نمی دهد و یک منبع بسته است.</div> |<div dir="rtl">MySQL از کد اختصاصی در Enterprise Edition خود استفاده می کند.</div>|
+|Priority Code |<div dir="rtl">MariaDB اجازه دسترسی به محتوای اختصاصی را نمی دهد و یک منبع بسته است.</div> |<div dir="rtl">MySQL از کد اختصاصی در Enterprise Edition خود استفاده می کند.</div>|
 |پوشاندن اطلاعات|No|Yes|
 |ستون های پویا |No|Yes|
 |Monitoring|SQLyog|MySQL workbench |
-|مسیریابی|MariaDB MaxScale |Mysql Router |
+|مسیریابی|MariaDB MaxScale |MySQL Router |
 |تجزیه و تحلیل|MaraiDB ColumnStore |No|
-|Secondary database model |Document store and Graph DBMS |Document store |
-|شرکت‌های معروف|Nrise, Accenture, Docplanner, Grooveshark. |Airbnb, Uber Technogloeis, Netflix, Dropbox. |
+|Secondary Database Model |Document store and Graph DBMS |Document store |
+|شرکت‌های کاربر معروف|Nrise, Accenture, Docplanner, Grooveshark. |Airbnb, Uber Technogloeis, Netflix, Dropbox. |
 
 این managed-service از دو image متفاوت تشکیل شده‌است که یکی خود MariaDB و دیگری PHPMyAdmin که یک رابط کاربری تحت وب برای MariaDB است.<br/>
 برای دیپلوی کردن یک سرویس MariaDB شما می‌توانید موارد زیر را هنگام دیپلوی مشخص کنید:
