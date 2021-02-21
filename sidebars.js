@@ -10,7 +10,7 @@ module.exports = {
     'source-deployments/source-aspnetcore','source-deployments/source-aspnet','source-deployments/source-nodejs','source-deployments/source-spring-boot',
     'source-deployments/source-react','source-deployments/source-vuejs'],
     "سرویس‌های مدیریت شده": ['managed-services/managed-services-intro', 'managed-services/gitlab-managed-service', 'managed-services/gitlab-runner-managed-service', 
-    'managed-services/mysql-managed-service', 'managed-services/postgresql-managed-service', 'managed-services/mssql-managed-service',
+    'managed-services/mysql-managed-service', 'managed-services/postgresql-managed-service','managed-services/mariadb-managed-service', 'managed-services/mssql-managed-service',
     'managed-services/mongodb-managed-service', 'managed-services/elasticsearch-managed-service', 'managed-services/kibana-managed-service', 
     'managed-services/minio-managed-service', 'managed-services/rabbitmq-managed-service', 'managed-services/redis-managed-service', 'managed-services/memcached-managed-service',
     'managed-services/file-browser-managed-service', 'managed-services/proxy-managed-service'],

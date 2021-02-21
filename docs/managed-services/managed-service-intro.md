@@ -36,6 +36,7 @@ Managed Service‌ها عموما سرویس‌های کاربردی و مهمی
 | Elasticsearch| 7.8.0 |[مشاهده] [elasticsearch_document]| Kibana| 7.8.0 |[مشاهده] [kibana_document] |
 | Redis| 5.0.3 |[مشاهده] [redis_document] | Redis Dashboard| latest |[مشاهده] [redis_dashboard_document]
 | MinIO| latest |[مشاهده] [minio_document]| Proxy| latest |[مشاهده] [proxy_document]|
+| MariaDB| 10.5.8 |[مشاهده] [mariadb_document]||||
 
 
 ## نحوه دیپلوی کردن ManagedServiceها
@@ -91,5 +92,6 @@ spec:
 [redis_dashboard_document]: /docs/managed-services/redis-managed-service
 [minio_document]: /docs/managed-services/minio-managed-service
 [proxy_document]: /docs/managed-services/proxy-managed-service
+[mariadb_document]: /docs/managed-services/mariadb-managed-service
 [service_manifest]: /docs/services/service-manifest
 
