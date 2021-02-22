@@ -15,7 +15,7 @@ keywords:
   - "managed services"
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/managed-services/mariadb-phpmyadmin-managed-service-thumbnail.png
+image: /img/docs/thumbnails/managed-services/mariadb-managed-service-thumbnail.png
 ---
 
 ![MariaDB + PHPMyAdmin](/img/docs/mariadb-managed-service.svg "MariaDB + PHPMyAdmin")
