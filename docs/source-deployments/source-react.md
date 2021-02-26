@@ -1,6 +1,6 @@
 ---
 id: source-react
-title: پروژهایReact
+title: پروژه‌هایReact
 sidebar_label: پروژه‌های React
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس React Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
