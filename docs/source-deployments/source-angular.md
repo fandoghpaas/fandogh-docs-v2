@@ -18,10 +18,10 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/source-deployments/reactjs-thumbnail.png
+image: /img/docs/thumbnails/source-deployments/angularjs-thumbnail.png
 ---
 
- ![React.JS](/img/docs/reactjs-banner.svg "React.JS")
+ ![Angular.JS](/img/docs/angularjs-banner.svg "Angular.JS")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
 ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `Angular Project` بدون نیاز به دانش docker می‌پردازیم.
