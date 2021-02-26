@@ -1,6 +1,6 @@
 ---
 id: source-vuejs
-title: پروژهایVue.js
+title: پروژه‌هایVue.js
 sidebar_label: پروژه‌های Vue.js
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Vue.js Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:

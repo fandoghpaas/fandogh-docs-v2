@@ -1,6 +1,6 @@
 ---
 id: source-aspnet
-title: پروژهای ASP.NET
+title: پروژه‌های ASP.NET
 sidebar_label: پروژه‌های ASP.NET
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس ASP.NET Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
