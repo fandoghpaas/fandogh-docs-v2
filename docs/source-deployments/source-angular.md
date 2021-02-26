@@ -1,6 +1,6 @@
 ---
 id: source-angular
-title: پروژهایAngular
+title: پروژه‌هایAngular
 sidebar_label: پروژه‌های Angular
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Angular Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
