@@ -47,7 +47,7 @@ Service Name: MyNodeJSWebsite
 -[1] Static Website
 -[2] Django Project
 -[3] Laravel Project
--[4] ASP.NET core Project
+-[4] ASP.NET Core Project
 -[5] Nodejs Project
 Please choose one of the project types above:
 ```
