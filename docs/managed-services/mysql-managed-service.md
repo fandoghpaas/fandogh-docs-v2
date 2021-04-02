@@ -31,7 +31,7 @@ MySQL یکی از محبوب‌ترین RDBMS‌های امروزی است که 
 |mysql_root_password| string| root| رمز عبور یوزر root دیتابیس|
 |volume_name| string| None| نام volumeای که به سرویس وصل می‌شود|
 |volume_browser_enabled| boolean| false| آیا سرویس مدیریت Dedicated Volume برای این سرویس ساخته شود یا خیر|
-
+|version|string|None|ورژن‌هایی که می‌توانید استفاده کنید:5.6 , 5.7 ,8 می‌باشد.|
 :::tip راهنمایی
 توجه داشته باشید که اگر می‌خواهید سرعت I/O در سرویس دیتابیس شما بیشتر شود، می‌توانید از volume‌ها استفاده کنید و نام آن را به صورت `c volume_name=VOLUME_NAME-` موقع ساخت Managed Service در fandogh-cli وارد نمایید. )VOLUME_NAME نام volume‌ای است که موقع ساخت آن تعیین کرده‌اید(.
 :::
@@ -43,7 +43,7 @@ MySQL یکی از محبوب‌ترین RDBMS‌های امروزی است که 
 به عنوان مثال برای دیپلوی کردن یک MySQL می‌توانیم به این شکل عمل کنیم:
 
 ```bash
-fandogh managed-service deploy mysql 9.1 \
+fandogh managed-service deploy mysql 8 \
      -c service_name=mydatabase \
      -c mysql_root_password=12341234\
      -c phpmyadmin_enabled=false
@@ -53,9 +53,14 @@ fandogh managed-service deploy mysql 9.1 \
 - نام سرویس آن mydatabase است )یعنی در شبکه داخلی فضانام شما باقی سرویس‌ها از طریق نام mydatabase می‌توانند به آن متصل شوند( .
 - رمز عبور root آن 12341234 است.
 - PHPMyAdmin هم در آن غیر‌فعال شده است.
+- ورژنی که برای ساخت MySQL مشخص کردیم 8 می‌باشد
 
 :::note توجه
 پورت پیش فرض برای MySql برابر با 3306 می باشد.
+:::
+
+:::note توجه
+در صورتی که از ورژن‌های پشتیبانی شده فندق استفاده نکنید خطا دریافت می‌کنید.
 :::
 
 :::important مهم
