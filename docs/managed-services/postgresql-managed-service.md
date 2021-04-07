@@ -79,7 +79,7 @@ kind: ManagedService
 name: db
 spec:
   service_name: postgresql
-  version: 10.4
+  version: '10.4'
   parameters:
     - name: adminer_enabled
       value: true
@@ -112,7 +112,7 @@ kind: ManagedService
 name: db
 spec:
   service_name: postgresql
-  version: 10.4
+  version: '10.4'
   parameters:
     - name: adminer_enabled
       value: true
