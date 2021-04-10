@@ -20,7 +20,11 @@ image: /img/docs/thumbnails/managed-services/mysql-phpmyadmin-managed-service-th
 
 ![MySQL + PHPMyAdmin](/img/docs/mysql-phpmyadmin.svg "MySQL + PHPMyAdmin")
 
-MySQL یکی از محبوب‌ترین RDBMS‌های امروزی است که طرفداران زیادی در سرتاسر دنیا دارد؛ به همین دلیل MySQL به عنوان اولین managed-service به فندق اضافه شد.<br/>
+MySQL یکی از محبوب‌ترین RDBMS‌های امروزی است که طرفداران زیادی در سرتاسر دنیا دارد؛ به همین دلیل MySQL به عنوان اولین managed-service به سکوی ابری فندق اضافه شد؛ در زیر می‌توانید لیست نسخه‌های رسمی پشتیبانی شده را مشاهده کنید:
+
+* **MySQL 5.7**
+* **MySQL 8.0**
+
 این managed-service از دو image متفاوت تشکیل شداست که یکی خود MySQL و دیگری PHPMyAdmin که یک رابط کاربری تحت وب برای MySQL است.<br/>
 برای دیپلوی کردن یک سرویس MySQL شما می‌توانید موارد زیر را هنگام دیپلوی مشخص کنید:
 
@@ -72,9 +76,8 @@ fandogh managed-service deploy mysql 5.7 \
 
 لیست نسخه‌های موجود برای سرویس `MySQL` به شرح زیر هستند:
 
-|لیست نسخه‌ها|لیست نسخه ها |لیست نسخه ها |
-|--- |--- |---|
-|5.7 | 8.0 ||
+* **MySQL 5.7**
+* **MySQL 8.0**
 
 برای ایجاد سرویس مدیریت شده `MySQL` با نسخه دلخواه، می‌توانید از دستور زیر استفاده کنید:
 

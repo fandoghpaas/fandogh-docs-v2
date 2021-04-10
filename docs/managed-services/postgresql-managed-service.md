@@ -20,8 +20,12 @@ image: /img/docs/thumbnails/managed-services/postgresql-adminer-managed-service-
 
 ![Postgresql + Adminer](/img/docs/postgresql-adminer.svg "Postgresql + Adminer")
 
-PostgreSQL یک ORDBMS معروف و پرطرفدار است که می‌توانید به سادگی به عنوان یک managed-service روی Namespace خود دیپلوی کنید.<br/>
-هنگام دیپلوی کردن Postgresql پارامتر‌های زیر را می‌توانید مشخص کنید:
+PostgreSQL یک ORDBMS معروف و پرطرفدار است که می توانید به سادگی به عنوان یک managed-service روی فضانام خود دیپلوی کنید؛ در زیر می‌توانید لیست نسخه‌های رسمی پشتیبانی شده را مشاهده کنید:
+
+* **PostgreSQL 10.16**
+* **PostgreSQL 11.11**
+* **PostgreSQL 12.6**
+* **PostgreSQL 13.2**
 
 |کانفیگ|نوع|پیش‌فرض|توضیح|
 |---	|---	|---	|---	|
@@ -67,10 +71,10 @@ PostgreSQL یک ORDBMS معروف و پرطرفدار است که می‌توا�
 
 لیست نسخه‌های موجود برای سرویس `PostgreSQL` به شرح زیر هستند:
 
-|لیست نسخه‌ها|لیست نسخه ها |لیست نسخه ها |
-|--- |--- |---|
-|10.16 | 11.11 |12.6 |
-|13.2 |||
+* **PostgreSQL 10.16**
+* **PostgreSQL 11.11**
+* **PostgreSQL 12.6**
+* **PostgreSQL 13.2**
 
 برای ایجاد سرویس مدیریت شده `PostgreSQL` با نسخه دلخواه، می‌توانید از دستور زیر استفاده کنید:
 

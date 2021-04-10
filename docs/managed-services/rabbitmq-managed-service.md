@@ -22,7 +22,11 @@ image: /img/docs/thumbnails/managed-services/rabbitmq-managed-service-thumbnail.
 ![RabbitMQ](/img/docs/rabbitmq-managed-service.svg "RabbitMQ")
 
 RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا **پیام دهنده** است که معماری `Advanced Message Queuing Protocol` یا به اختصار `AMQP` را ایجاد کرده‌ است.<br/>
-همچنین این سرویس در ادامه با معماری plug-in به نحوی گسترش یافت تا بتواند از پروتکول‌هایی مثل `Streaming Text Oriented Messaging Protocol` یا به اختصار )STOMP(، MQTT و ... هم پشتیبانی کند.<br/><br/>
+همچنین این سرویس در ادامه با معماری plug-in به نحوی گسترش یافت تا بتواند از پروتکول‌هایی مثل `Streaming Text Oriented Messaging Protocol` یا به اختصار )STOMP(، MQTT و ... هم پشتیبانی کند.<br/>
+در زیر می‌توانید لیست نسخه‌های رسمی پشتیبانی شده را مشاهده کنید:
+
+* **RabbitMQ 3.8-management**
+
 برای اینکه بتوانید این سرویس را دیپلوی کنید، پارامتر‌های زیر را می‌توانید مشخص کنید:
 
 |کانفیگ|نوع|پیش‌فرض|توضیح|
@@ -101,9 +105,7 @@ RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا *
 
 لیست نسخه‌های موجود برای سرویس `RabbitMQ` به شرح زیر هستند:
 
-|لیست نسخه‌ها|لیست نسخه ها |لیست نسخه ها |
-|--- |--- |---|
-|3.8-management |||
+* **RabbitMQ 3.8-management**
 
 برای ایجاد سرویس مدیریت شده `RabbitMQ` با نسخه دلخواه، می‌توانید از دستور زیر استفاده کنید:
 
