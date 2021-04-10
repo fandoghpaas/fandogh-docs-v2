@@ -42,7 +42,7 @@ RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا *
 برای دیپلوی کردن یک RabbitMQ می‌توانیم به این شکل یک سرویس بسازیم:
 
 ```bash
-  fandogh managed-service deploy rabbitmq latest \
+  fandogh managed-service deploy rabbitmq 3.8-management \
        -c service_name=test-rabbitmq \
        -c rabbitmq_username=rabbitmq \
        -c rabbitmq_password=rabbitmq \
@@ -96,6 +96,30 @@ RabbitMQ یک سرویس متن باز [Message Broker] [message_brokers] یا *
 به نحوه تعریف پلاگین‌ها دقت کنید. در صورتی که از fandogh-cli استفاده می‌کنید باید نام پلاگین ها را با فاصله از هم و در بین double quotation یا " " قرار دهید تا تمام لیست دریافت شود.
 :::
 
+## نسخه‌ها )Versions(
+سرویس‌های مدیریت شده سکوی ابری فندق، تنها از نسخه‌های `stable` و پشتیبانی شده توسط توسعه ‌دهنده های اصلی آن محصول پشتیبانی می‌کند. به همین خاطر می‌توانید با خیال راحت سرویس مورد نظر خود را به همراه نسخه مورد نیازتان بر روی فضانام مستقر نمایید.
+
+لیست نسخه‌های موجود برای سرویس `RabbitMQ` به شرح زیر هستند:
+
+|لیست نسخه‌ها|لیست نسخه ها |لیست نسخه ها |
+|--- |--- |---|
+|3.8-management |||
+
+برای ایجاد سرویس مدیریت شده `RabbitMQ` با نسخه دلخواه، می‌توانید از دستور زیر استفاده کنید:
+
+```bash
+fandogh managed-service deploy rabbitmq 3.8-management
+```
+
+:::caution توجه
+توجه داشته باشید شما نمی‌توانید نسخه سرویس در حال اجرا را تغییر دهید. چرا که ممکن است در نسخه‌های متفاوت، تغییراتی وجود داشته باشد که باعث ایجاد تداخل در تنظیمات اصلی و در نتیجه از بین رفتن داده‌ها شود!
+:::
+
+:::tip راهنمایی
+برای آنکه بتوانید نسخه سرویس خود را تغییر دهید، بهتر است ابتدا یک سرویس جدید با نسخه دلخواه ایجاد کرده؛ سپس از اطلاعات سرویس قبلی Backup تهیه نموده و وارد سرویس جدید کنید.
+در صورت وجود خطا یا تداخل، احتمال دارد نیاز داشته باشید برخی داده‌ها یا تنظیمات را بروزرسانی کرده و تغییر دهید.
+:::
+
 ## افزودن دامنه دلخواه
 
 اگر قصد داشته باشید دامنه یا دامنه‌های دلخواهتان را به سرویس مدیریت شده مورد نظر متصل نمایید، از طریق این بخش می‌توانید لیست این دامنه‌ها را مشخص کنید.<br/>
@@ -115,7 +139,7 @@ kind: ManagedService
 name: test-rabbitmq
 spec:
   service_name: rabbitmq
-  version: latest
+  version: 3.8-management
   parameters:
     - name: rabbitmq_username
       value: rabbitmq
@@ -147,7 +171,7 @@ kind: ManagedService
 name: test-rabbitmq
 spec:
   service_name: rabbitmq
-  version: latest
+  version: 3.8-management
   parameters:
     - name: rabbitmq_username
       value: rabbitmq
@@ -168,7 +192,7 @@ kind: ManagedService
 name: test-rabbitmq
 spec:
   service_name: rabbitmq
-  version: latest
+  version: 3.8-management
   parameters:
     - name: rabbitmq_username
       value: rabbitmq
@@ -191,7 +215,7 @@ kind: ManagedService
 name: test-rabbitmq
 spec:
   service_name: rabbitmq
-  version: latest
+  version: 3.8-management
   parameters:
     - name: rabbitmq_username
       value: rabbitmq
