@@ -38,7 +38,7 @@ image: /img/docs/thumbnails/managed-services/memcached-managed-service-thumbnail
 برای دیپلوی کردن یک Memcached می‌توانیم به این شکل یک سرویس بسازیم:
 
 ```bash
-  fandogh managed-service deploy memcached 1.6.9 \
+  fandogh managed-service deploy memcached 1.6 \
        -c service_name=test-memcached \
        -c memcached_username=memcache \
        -c memcached_password=memcache \
@@ -58,6 +58,32 @@ image: /img/docs/thumbnails/managed-services/memcached-managed-service-thumbnail
 - برای حفط مسائل امنیتی سرویس Memcached به صورت یک [Internal Service] [internal_service] عمل می‌کند و شما خارج از namespace خود به آن دسترسی ندارید.
 :::
 
+## نسخه ها )Versions(
+سرویس های مدیریت شده سکوی ابری فندق، تنها از نسخه های `stable` و پشتیبانی شده توسط توسعه  دهنده های اصلی آن محصول پشتیبانی می کند. به همین خاطر می توانید با خیال راحت سرویس مورد نظر خود را به همراه نسخه $
+
+لیست نسخه های موجود برای سرویس `Memcached` به شرح زیر هستند:
+
+|لیست نسخه ها|لیست نسخه ها |لیست نسخه ها |
+|--- |--- |---|
+|1.6 |||
+
+برای ایجاد سرویس مدیریت شده `Memcached` با نسخه دلخواه، می توانید از دستور زیر استفاده کنید:
+
+```bash
+fandogh managed-service deploy memcached 1.6
+```
+
+:::caution توجه
+توجه داشته باشید شما نمی توانید نسخه سرویس در حال اجرا را تغییر دهید. چرا که ممکن است در نسخه های متفاوت، تغییراتی وجود داشته باشد که باعث ایجاد تداخل در تنظیمات اصلی و در نتیجه از بین رفتن داده ها شود!
+:::
+
+:::tip راهنمایی
+برای آنکه بتوانید نسخه سرویس خود را تغییر دهید، بهتر است ابتدا یک سرویس جدید با نسخه دلخواه ایجاد کرده؛ سپس از اطلاعات سرویس قبلی Backup تهیه نموده و وارد سرویس جدید کنید.
+در صورت وجود خطا یا تداخل، احتمال دارد نیاز داشته باشید برخی داده ها یا تنظیمات را بروزرسانی کرده و تغییر دهید.
+:::
+
+
+
 ## Deploy With Manifest
   
 شما همچنین می توانید برای اجرای راحت تر سرویس های مدیریت شده از [مانیفست] [service_manifest] همانند مثال زیر استفاده کنید.
@@ -69,7 +95,7 @@ kind: ManagedService
 name: test-memcached
 spec:
   service_name: memcached
-  version: 1.6.9
+  version: 1.6
   parameters:
     - name: memcached_username
       value: memcache
