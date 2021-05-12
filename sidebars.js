@@ -6,7 +6,7 @@ module.exports = {
     "منابع": ['plans/resources'],
     "ایمیج‌ها": ['images/images'],
     "سرویس‌ها": ['services/services', 'services/service-manifest', 'services/service-lifecycle-handlers', 'services/exec', 'services/rollback', 'services/service-archive'],
-    "اجرای مستقیم کدها": ['source-deployments/source-intro', 'source-deployments/source-static', 'source-deployments/source-django','source-deployments/source-flask', 'source-deployments/source-laravel', 
+    "اجرای مستقیم کدها": ['source-deployments/source-intro', 'source-deployments/source-static', 'source-deployments/source-django', 'source-deployments/source-laravel', 
     'source-deployments/source-aspnetcore','source-deployments/source-aspnet','source-deployments/source-nodejs','source-deployments/source-spring-boot',
     'source-deployments/source-react','source-deployments/source-vuejs','source-deployments/source-angular'],
     "سرویس‌های مدیریت شده": ['managed-services/managed-services-intro', 'managed-services/gitlab-managed-service', 'managed-services/gitlab-runner-managed-service', 
