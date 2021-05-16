@@ -20,10 +20,10 @@ keywords:
   - docker
   - "سکوی ابری فندق"
   - "زیرساخت ابری"
-image: /img/docs/thumbnails/source-deployments/django-project-thumbnail.png
+image: /img/docs/thumbnails/source-deployments/flask-thumbnail.png
 ---
 
-## ![Flask Project](/img/docs/Django-project-banner.svg "Flask Project")
+## ![Flask Project](/img/docs/flask-banner.svg "Flask Project")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
 ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `Flask Project` بدون نیاز به دانش docker می‌پردازیم.
