@@ -33,7 +33,7 @@ image: /img/docs/thumbnails/source-deployments/laravel-thumbnail.png
 اگر هنوز fandogh-cli بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
 :::
 
-در پوشه اصلی پروژه، بعد از اینکه در فندق login کردید دستور `fandogh source init‍‍` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس رو انتخاب نمایید.
+در پوشه اصلی پروژه، بعد از اینکه در فندق login کردید دستور `fandogh source init` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس رو انتخاب نمایید.
 
 ```
 Service Name: mywebsite
