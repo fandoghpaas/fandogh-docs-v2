@@ -1,8 +1,8 @@
 ---
 id: source-fastapi
-title: پروژه‌های FastApi 
-sidebar_label: پروژه‌های FastApi 
-description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس FastApi Project بدون نیاز به دانش docker می‌پردازیم.'
+title: پروژه‌های FastAPI 
+sidebar_label: پروژه‌های FastAPI 
+description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس FastAPI Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
 - "سکوی ابری"
 - داکر
@@ -20,13 +20,13 @@ keywords:
 - docker
 - "سکوی ابری فندق"
 - "زیرساخت ابری"
-image: /img/docs/thumbnails/source-deployments/flask-thumbnail.png
+image: /img/docs/thumbnails/source-deployments/fastapi-thumbnail.png
 ---
 
-## ![Flask Project](/img/docs/flask-banner.svg "Flask Project")
+## ![FastAPI Project](/img/docs/fastapi-banner.svg "FastAPI Project")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
-ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `FastApi Project` بدون نیاز به دانش docker می‌پردازیم.
+ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `FastAPI Project` بدون نیاز به دانش docker می‌پردازیم.
 
 :::tip fandogh-cli setup
 اگر هنوز fandogh-cli  فندق بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
@@ -38,7 +38,7 @@ image: /img/docs/thumbnails/source-deployments/flask-thumbnail.png
 Service Name: mywebsite
 ```
 
-بعد از وارد کردن نام service  برای شما گزینه هایی که بدون نیاز به دانش docker قابل اجرا هستند نمایش داده می‌شود. از بین گزینه های نمایش داده شده گزینه **FastApi Project** را انتخاب کنید.
+بعد از وارد کردن نام service  برای شما گزینه هایی که بدون نیاز به دانش docker قابل اجرا هستند نمایش داده می‌شود. از بین گزینه های نمایش داده شده گزینه **FastAPI Project** را انتخاب کنید.
 
 :::note توجه
 توجه داشته باشید  برای انتخاب، شماره گزینه مورد نظر را وارد کنید.
@@ -52,7 +52,7 @@ Service Name: mywebsite
 -[5] ASP.NET Core Project
 -[6] Nodejs Project
 -[7] Spring Boot
--[8] FastApi Project
+-[8] FastAPI Project
 ...
 Please choose one of the project types above:
 ```
@@ -76,7 +76,7 @@ Python version [3.8]: 3.6
 :::caution نکته
 حتما در نظر داشته باشید ورژن پایتون شما باید یکی از ورژن های 3.6 ،3.7 و 3.8 باشد.
 :::
-بعد از اینکه گزینه **FastApi Project** را انتخاب کردید فندق از شما نام ماژول `WSGI_MODULE` را خواهد پرسید..<br/>
+بعد از اینکه گزینه **FastAPI Project** را انتخاب کردید فندق از شما نام ماژول `WSGI_MODULE` را خواهد پرسید..<br/>
 **منظور از فایل WSGI_MODULE فایل پایتونی است که شما application fastapi خود را تعریف کرده اید. **
 
 
