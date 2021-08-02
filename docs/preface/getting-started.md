@@ -79,7 +79,7 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 ```
 ۳( حال کافی است با استفاده از fandogh-cli یک ایمیج ایجاد کرده، منتشر کنیم و از روی آن ایمیج، سرویس مورد نظر را ایجاد کنیم:
 ```bash
-$ fandogh login  --username=YOUR_USERNAME --password=YOUR_PASSWORD
+$ fandogh login  --username YOUR_USERNAME --password YOUR_PASSWORD
 Logged in successfully
 
 $ fandogh image init  --name=simple_nginx
