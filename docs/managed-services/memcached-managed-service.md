@@ -48,7 +48,7 @@ image: /img/docs/thumbnails/managed-services/memcached-managed-service-thumbnail
        -c memcached_username=memcache \
        -c memcached_password=memcache \
        -c cache_size=256
-       - --memory 256Mi
+       --memory 256Mi
 ```
 
 این دستور یک سرویس Memcache ایجاد می‌کند که:
