@@ -1,6 +1,6 @@
 ---
 id: minio-modern-managed-service
-title: MinIO
+title: MinIO Modern
 sidebar_label: MinIO Modern
 description: 'اگر شما به دنبال راه حلی برای ذخیره‌سازی داده‌های متفاوت هستید بهتر است از Object Storageها استفاده کنید؛ یکی از این Object Storageها، MinIO است.'
 keywords:
