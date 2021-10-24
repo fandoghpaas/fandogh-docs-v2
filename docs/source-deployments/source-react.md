@@ -73,7 +73,7 @@ The context directory [.]:
 ## فیلم‌های آموزشی
 
 <Tabs
-  groupId="react-source-deployment-tutorials"
+  groupId="reactjs-source-deployment-tutorials"
   defaultValue="deploy"
   values={[
     {label: 'استقرار', value: 'deploy'},
@@ -82,19 +82,18 @@ The context directory [.]:
 }>
 <TabItem value="deploy">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-source-deploy.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-source-deploy.mp4" controls></video>
 </figure>
 </TabItem>
 
 <TabItem value="domains">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-add-domain.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-add-domain.mp4" controls></video>
 </figure>
 </TabItem>
 
 </Tabs>
+
 
 [getting_started]: /docs/preface/getting-started
 [service_manifest]: /docs/services/service-manifest

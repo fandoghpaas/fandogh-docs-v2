@@ -117,15 +117,13 @@ application = Flask(__name__, static_url_path='/static')
 }>
 <TabItem value="deploy">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-source-deploy.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-source-deploy.mp4" controls></video>
 </figure>
 </TabItem>
 
 <TabItem value="domains">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-add-domain.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-add-domain.mp4" controls></video>
 </figure>
 </TabItem>
 

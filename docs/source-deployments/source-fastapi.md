@@ -123,15 +123,13 @@ app = FastAPI()
 }>
 <TabItem value="deploy">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-source-deploy.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-source-deploy.mp4" controls></video>
 </figure>
 </TabItem>
 
 <TabItem value="domains">
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-add-domain.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-add-domain.mp4" controls></video>
 </figure>
 </TabItem>
 

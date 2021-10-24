@@ -220,46 +220,37 @@ DATABASES = {
     {label: 'Dedicated Volume', value: 'dedicated_volume'}
   ]
 }>
+
 <TabItem value="deploy">
-
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-source-deploy.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-source-deploy.mp4" controls></video>
 </figure>
-
 </TabItem>
+
 <TabItem value="exec">
-
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-exec.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-exec.mp4" controls></video>
 </figure>
-
 </TabItem>
+
 <TabItem value="domains">
-
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-add-domain.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-add-domain.mp4" controls></video>
 </figure>
-
 </TabItem>
+
 <TabItem value="shared_volume">
-
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-shared-volume.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-shared-volume.mp4" controls></video>
 </figure>
-
 </TabItem>
+
 <TabItem value="dedicated_volume">
-
 <figure class="video-container">
-  <iframe src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-dedicated-volume.mp4"
-   width="100%" allowfullscreen frameborder="0"></iframe>
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-dedicated-volume.mp4" controls></video>
 </figure>
-
 </TabItem>
+
 </Tabs>
 
 [getting_started]: /docs/preface/getting-started
