@@ -108,7 +108,7 @@ application = Flask(__name__, static_url_path='/static')
 ## فیلم‌های آموزشی
 
 <Tabs
-  groupId="django-source-deployment-tutorials"
+  groupId="flask-source-deployment-tutorials"
   defaultValue="deploy"
   values={[
     {label: 'استقرار', value: 'deploy'},
