@@ -21,7 +21,10 @@ keywords:
 image: /img/docs/thumbnails/source-deployments/angularjs-thumbnail.png
 ---
 
- ![Angular.JS](/img/docs/angularjs-banner.svg "Angular.JS")
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+![Angular.JS](/img/docs/angularjs-banner.svg "Angular.JS")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
 ما در این بخش به توضیح چگونگی دیپلوی کردن سرویس `Angular Project` بدون نیاز به دانش docker می‌پردازیم.
@@ -67,6 +70,30 @@ The context directory [.]:
 پس از هر بار تغییر در پروژه تنها کافیست که دستور fandogh source run را مجددا اجرا کنید.
 فایل `fandogh.yml` می‌تواند شامل تمام بخش‌هایی که در [مانیفست] [service_manifest] فندق است باشد٬ شما به صورت دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
+
+## فیلم‌های آموزشی
+
+<Tabs
+  groupId="angular-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
 
 [getting_started]: /docs/preface/getting-started
 [service_manifest]: /docs/services/service-manifest
