@@ -33,6 +33,33 @@ import TabItem from '@theme/TabItem';
 اگر هنوز fandogh-cli بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
 :::
 
+## فیلم های آموزشی
+
+<Tabs
+  groupId="angular-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
+
+
+## مستندات قدم به قدم
+
 در پوشه اصلی پروژه، بعد از اینکه در فندق login کردید دستور `fandogh source init` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس رو انتخاب نمایید.
 
 ```
@@ -70,30 +97,6 @@ The context directory [.]:
 پس از هر بار تغییر در پروژه تنها کافیست که دستور fandogh source run را مجددا اجرا کنید.
 فایل `fandogh.yml` می‌تواند شامل تمام بخش‌هایی که در [مانیفست] [service_manifest] فندق است باشد٬ شما به صورت دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
-
-## فیلم‌های آموزشی
-
-<Tabs
-  groupId="angular-source-deployment-tutorials"
-  defaultValue="deploy"
-  values={[
-    {label: 'استقرار', value: 'deploy'},
-    {label: 'دامنه دلخواه', value: 'domains'},
-  ]
-}>
-<TabItem value="deploy">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-source-deploy.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="domains">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/angular/angular-add-domain.mp4" controls></video>
-</figure>
-</TabItem>
-
-</Tabs>
 
 [getting_started]: /docs/preface/getting-started
 [service_manifest]: /docs/services/service-manifest

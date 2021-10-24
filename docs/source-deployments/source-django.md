@@ -36,6 +36,54 @@ import TabItem from '@theme/TabItem';
 اگر هنوز fandogh-cli  فندق بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
 :::
 
+## فیلم‌های آموزشی
+
+<Tabs
+  groupId="django-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'ساخت Super User', value: 'exec'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+    {label: 'Shared Volume', value: 'shared_volume'},
+    {label: 'Dedicated Volume', value: 'dedicated_volume'}
+  ]
+}>
+
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="exec">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-exec.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="shared_volume">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-shared-volume.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="dedicated_volume">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-dedicated-volume.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
+
+## مستندات قدم به قدم
+
 در پوشه اصلی پروژه، بعد از اینکه در فندق لاگین کردید دستور `fandogh source init` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس را انتخاب نمایید.
 
 ```
@@ -206,52 +254,6 @@ DATABASES = {
 :::tip راهنمایی
 حتما در نظر داشته باشید بعد از تغییرات پایگاه داده، فایل‌های migration را دوباره بسازید که به سرور های فندق انتقال پیدا کنند و تغییرات جدید شما لحاظ شوند.
 :::
-
-## فیلم‌های آموزشی
-
-<Tabs
-  groupId="django-source-deployment-tutorials"
-  defaultValue="deploy"
-  values={[
-    {label: 'استقرار', value: 'deploy'},
-    {label: 'ساخت Super User', value: 'exec'},
-    {label: 'دامنه دلخواه', value: 'domains'},
-    {label: 'Shared Volume', value: 'shared_volume'},
-    {label: 'Dedicated Volume', value: 'dedicated_volume'}
-  ]
-}>
-
-<TabItem value="deploy">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-source-deploy.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="exec">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-exec.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="domains">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-add-domain.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="shared_volume">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-shared-volume.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="dedicated_volume">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/django/django-dedicated-volume.mp4" controls></video>
-</figure>
-</TabItem>
-
-</Tabs>
 
 [getting_started]: /docs/preface/getting-started
 [mysql_managed_service]: /docs/managed-services/mysql-managed-service
