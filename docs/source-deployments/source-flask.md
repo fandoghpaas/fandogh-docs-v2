@@ -23,6 +23,9 @@ keywords:
 image: /img/docs/thumbnails/source-deployments/flask-thumbnail.png
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## ![Flask Project](/img/docs/flask-banner.svg "Flask Project")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
@@ -102,7 +105,29 @@ application = Flask(__name__, static_url_path='/static')
 دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
  
+## فیلم‌های آموزشی
 
+<Tabs
+  groupId="flask-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/flask/flask-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
 
 [getting_started]: /docs/preface/getting-started
 [mysql_managed_service]: /docs/managed-services/mysql-managed-service

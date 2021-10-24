@@ -23,6 +23,9 @@ keywords:
 image: /img/docs/thumbnails/source-deployments/fastapi-thumbnail.png
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## ![FastAPI Project](/img/docs/fastapi-banner.svg "FastAPI Project")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
@@ -108,6 +111,29 @@ app = FastAPI()
 دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
 
+## فیلم‌های آموزشی
+
+<Tabs
+  groupId="fastapi-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
 
 
 [getting_started]: /docs/preface/getting-started

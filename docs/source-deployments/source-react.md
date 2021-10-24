@@ -21,6 +21,9 @@ keywords:
 image: /img/docs/thumbnails/source-deployments/reactjs-thumbnail.png
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
  ![React.JS](/img/docs/reactjs-banner.svg "React.JS")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
@@ -66,6 +69,31 @@ The context directory [.]:
 پس از هر بار تغییر در پروژه تنها کافیست که دستور fandogh source run را مجددا اجرا کنید.
 فایل `fandogh.yml` می‌تواند شامل تمام بخش‌هایی که در [مانیفست] [service_manifest] فندق است باشد٬ شما به صورت دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
+
+## فیلم‌های آموزشی
+
+<Tabs
+  groupId="reactjs-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/reactjs/reactjs-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
+
 
 [getting_started]: /docs/preface/getting-started
 [service_manifest]: /docs/services/service-manifest
