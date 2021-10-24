@@ -35,6 +35,32 @@ import TabItem from '@theme/TabItem';
 اگر هنوز fandogh-cli  فندق بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
 :::
 
+## فیلم های آموزشی
+
+<Tabs
+  groupId="fastapi-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
+
+## مستندات قدم به قدم
+
 در پوشه اصلی پروژه، بعد از اینکه در فندق لاگین کردید دستور `fandogh source init` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس را انتخاب نمایید.
 
 ```
@@ -110,31 +136,6 @@ app = FastAPI()
 فایل `fandogh.yml` می‌تواند شامل تمام بخش‌هایی که در [مانیفست] [service_manifest] فندق است باشد٬ شما به صورت
 دستی قادر هستید تا بخش‌های مورد نیاز این فایل را تغییر دهید.
 :::
-
-## فیلم‌های آموزشی
-
-<Tabs
-  groupId="fastapi-source-deployment-tutorials"
-  defaultValue="deploy"
-  values={[
-    {label: 'استقرار', value: 'deploy'},
-    {label: 'دامنه دلخواه', value: 'domains'},
-  ]
-}>
-<TabItem value="deploy">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-source-deploy.mp4" controls></video>
-</figure>
-</TabItem>
-
-<TabItem value="domains">
-<figure class="video-container">
-  <video src="https://media.fandogh.cloud/tutorials/source-deployments/fastapi/fastapi-add-domain.mp4" controls></video>
-</figure>
-</TabItem>
-
-</Tabs>
-
 
 [getting_started]: /docs/preface/getting-started
 [mysql_managed_service]: /docs/managed-services/mysql-managed-service
