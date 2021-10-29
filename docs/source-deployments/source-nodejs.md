@@ -22,6 +22,9 @@ keywords:
 image: /img/docs/thumbnails/source-deployments/nodejs-thumbnail.png
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## ![Node.js Framework](/img/docs/node-js-banner.svg "Node.js Framework")
 
 دیپلوی کردن سرویس‌ها بر روی فندق برای کاربرانی که با docker کار نکرده‌اند ممکن است مقداری مبهم باشد؛ همینطور معمولا آماده سازی پروژه‌ها برای اجرا در محیط واقعی نیاز به تنظیماتی دارد که باعث پیچیده شدن کار برنامه‌نویس می‌شود.<br/>
@@ -30,6 +33,33 @@ image: /img/docs/thumbnails/source-deployments/nodejs-thumbnail.png
 :::tip fandogh-cli setup
 اگر هنوز fandogh-cli بر روی کامپیوتر شما نصب نیست از طریق این [مستند] [getting_started] می‌توانید cli را بر روی کامپیوتر خود نصب کنید.
 :::
+
+## فیلم های آموزشی
+
+<Tabs
+  groupId="nodejs-source-deployment-tutorials"
+  defaultValue="deploy"
+  values={[
+    {label: 'استقرار', value: 'deploy'},
+    {label: 'دامنه دلخواه', value: 'domains'},
+  ]
+}>
+<TabItem value="deploy">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/nodejs/nodejs-source-deploy.mp4" controls></video>
+</figure>
+</TabItem>
+
+<TabItem value="domains">
+<figure class="video-container">
+  <video src="https://media.fandogh.cloud/tutorials/source-deployments/nodejs/nodejs-add-domain.mp4" controls></video>
+</figure>
+</TabItem>
+
+</Tabs>
+
+
+## مستندات قدم به قدم
 
 در پوشه اصلی پروژه، بعد از اینکه در فندق login کردید دستور `fandogh source init` را اجرا کنید. در اولین مرحله شما می‌بایست اسم سرویس رو انتخاب نمایید.
 
