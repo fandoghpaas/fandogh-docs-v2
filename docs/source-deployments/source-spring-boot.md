@@ -74,7 +74,7 @@ Service Name: spring-boot-test
 توجه داشته باشید  برای انتخاب، شماره گزینه مورد نظر را وارد کنید.
 :::
   
-```yaml
+```yaml {6}
 -[1] Static Website
 -[2] Django Project
 -[3] Laravel Project
@@ -110,6 +110,26 @@ ${projectName}-${version}
 JAR file name: demo-1.0.0-SNAPSHOT.jar
 ```
  
+## تشخیص نام Jar File از pom.xml
+برای نمونه اگر قصد دارید که نام jar file را تشخیص دهید،‌ کافی است به pom.xml پروژه خود رفته و قسمت‌های مورد اشاره را بررسی کنید:
+
+```xml {6,8}
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cloud.fandogh</groupId>
+    <artifactId>demo</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    ...
+</project>
+```
+با توجه به نمونه بالا مقادیر `artifactId` و `version` نام نهایی jar file شما را مشخص خواهند کرد:
+```yaml
+JAR file name: demo-1.0.0-SNAPSHOT.jar
+```
+
 پس از مشخص کردن اطلاعات فوق، فایلی با نام fandogh.yml در پوشه جاری شما ساخته می‌شود.   
 اکنون با نوشتن دستور `fandogh source run` می‌توانید پروژه خودتان را بر روی فندق دیپلوی کنید.  
   
