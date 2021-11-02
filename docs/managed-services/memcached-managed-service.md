@@ -47,7 +47,7 @@ image: /img/docs/thumbnails/managed-services/memcached-managed-service-thumbnail
 برای دیپلوی کردن یک Memcached می‌توانیم به این شکل یک سرویس بسازیم:
 
 ```bash
-  fandogh managed-service deploy memcached 1.6 \
+  fandogh managed-service deploy memcached 1 \
        -c service_name=test-memcached \
        -c memcached_username=memcache \
        -c memcached_password=memcache \
@@ -72,12 +72,12 @@ image: /img/docs/thumbnails/managed-services/memcached-managed-service-thumbnail
 
 لیست نسخه های موجود برای سرویس `Memcached` به شرح زیر هستند:
 
-* **Memcached 1.6**
+* **Memcached 1**
 
 برای ایجاد سرویس مدیریت شده `Memcached` با نسخه دلخواه، می توانید از دستور زیر استفاده کنید:
 
 ```bash
-fandogh managed-service deploy memcached 1.6
+fandogh managed-service deploy memcached 1
 ```
 
 :::caution توجه
@@ -102,7 +102,7 @@ kind: ManagedService
 name: test-memcached
 spec:
   service_name: memcached
-  version: 1.6
+  version: 1
   parameters:
     - name: memcached_username
       value: memcache
