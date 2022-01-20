@@ -1,7 +1,7 @@
 ---
 id: source-django
-title: پروژه‌های جنگو
-sidebar_label: پروژه‌های جنگو 
+title: پروژه‌های Django
+sidebar_label: پروژه‌های Django 
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Django Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
   - "سکوی ابری"

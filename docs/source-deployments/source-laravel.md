@@ -1,7 +1,7 @@
 ---
 id: source-laravel
-title: پروژه‌های لاراول
-sidebar_label: پروژه‌های لاراول 
+title: پروژه‌های Laravel
+sidebar_label: پروژه‌های Laravel 
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Laravel Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
   - "سکوی ابری"

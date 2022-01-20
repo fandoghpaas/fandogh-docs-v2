@@ -1,7 +1,7 @@
 ---
 id: source-flask
-title: پروژه‌های فلسک
-sidebar_label: پروژه‌های فلسک 
+title: پروژه‌های Flask
+sidebar_label: پروژه‌های Flask 
 description: 'در این بخش به توضیح چگونگی دیپلوی کردن سرویس Flask Project بدون نیاز به دانش docker می‌پردازیم.'
 keywords:
   - "سکوی ابری"
