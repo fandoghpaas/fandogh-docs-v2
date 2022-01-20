@@ -96,7 +96,7 @@ module.exports = {
           },
           {
             to: '/docs/source-deployments/source-aspnetcore',
-            from: ['/docs/source-aspnetcore.html', '/docs/source-aspnetcore', '/docs/source-aspnet', '/docs/source-aspnet.html']
+            from: ['/docs/source-aspnetcore.html', '/docs/source-aspnetcore', '/docs/source-deployments/source-aspnet', '/docs/source-deployments/source-aspnet.html']
           },
           {
             to: '/docs/source-deployments/source-nodejs',
