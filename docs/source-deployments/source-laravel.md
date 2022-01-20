@@ -75,7 +75,7 @@ Service Name: mywebsite
 توجه داشته باشید  برای انتخاب، شماره گزینه مورد نظر را وارد کنید.
 :::
 
-```yaml
+```yaml {3}
 -[1] Static Website
 -[2] Django Project
 -[3] Laravel Project
@@ -90,6 +90,15 @@ Please choose one of the project types above:
 
 ```
 The context directory [.]:
+```
+
+در قسمت بعد شما می‌توانید نسخه **Laravel**، **PHP** و **Node** را مشخص کنید.
+توجه داشته باشید هر کدام از موارد بالا مقادیر پیش‌فرض دارند، لذا اگر نیازی به تغییر نسخه‌ها نداشته باشید می‌توانید با فشردن دکمه Enter از هر یک از مراحل عبور کنید.
+
+```
+Laravel version [7.6]:
+PHP Version [7.3]:
+Node version [12]:
 ```
 
 پس از مشخص کردن اطلاعات فوق، فایلی با نام fandogh.yml در پوشه جاری شما ساخته می شود. 
@@ -112,6 +121,9 @@ spec:
   source:
     context: .
     project_type: laravel
+    laravel_version: '7.6'
+    node_version: '12'
+    php_version: '7.3'
   env:
     - name: APP_KEY
       value: base64:HGT49Mfm6j77W2N6K3GXqJqqNgUromHg41lRF23sEJc=
@@ -137,7 +149,7 @@ spec:
 حتما در نظر داشته باشید سکوی ابری فندق بر روی HTTPS قرار داد و برخی از پروژه ها با http کار می‌کنند. این اتفاق ممکن است باعث شود که فایل های static شما مانند css,js,img ها در سرویس load نشوند. برای رفع این موضوع در قسمت Providers فایل appserviceprovider کلاس app service تابع boot را به شکل زیر تغییر دهید. 
 ::::
 
-```php
+```php {18,19,20}
 <?php
 
 namespace App\Providers;
@@ -159,7 +171,6 @@ class AppServiceProvider extends ServiceProvider
                 $url->forceScheme('https');
             }
         }
-
 
     /**
      * Register any application services.
@@ -184,3 +195,4 @@ class AppServiceProvider extends ServiceProvider
 
 [getting_started]: /docs/preface/getting-started
 [service_manifest]: /docs/services/service-manifest
+
