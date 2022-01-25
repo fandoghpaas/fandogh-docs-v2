@@ -28,10 +28,10 @@ image: /img/fandogh.png
 |نام سورس|لینک|نام سورس|لینک|
 |---	|---	|---	|---	|
 | Static Website|[مشاهده] [source_static] | Django | [مشاهده] [source_django] |
-| Laravel|[مشاهده] [source_laravel] |ASP.net Core|[مشاهده] [source_aspnet_core]|
+| Laravel|[مشاهده] [source_laravel] |Flask|[مشاهده] [source_flask]|
 | Node.js|[مشاهده] [source_nodejs] |Spring Boot|[مشاهده] [source_spring_boot] |
 | Angular |[مشاهده] [source_angular] |React |[مشاهده] [source_react] |
-| Vue.js |[مشاهده] [source_vuejs] |ASP.NET |[مشاهده] [source_aspnet] |
+| Vue.js |[مشاهده] [source_vuejs] |ASP.NET Core|[مشاهده] [source_aspnet_core] |
 
 
 <br/>
@@ -45,4 +45,4 @@ image: /img/fandogh.png
 [source_angular]: /docs/source-deployments/source-angular
 [source_react]: /docs/source-deployments/source-react
 [source_vuejs]: /docs/source-deployments/source-vuejs
-[source_aspnet]: /docs/source-deployments/source-aspnet
+[source_flask]: /docs/source-deployments/source-flask
