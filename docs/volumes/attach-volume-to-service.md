@@ -49,7 +49,26 @@ spec:
    - mount_path: /data
      volume_name: vol1  
 ```
+همجنین در نظر داشته باشید شما می توانید به هر سرویس بیش از یک Dedicated Volume متصل کنید.
 
+```yaml
+volume_mounts:
+- mount_path: /data
+  volume_name: vol1
+- mount_path: /image
+  volume_name: vol2
+```
+شما همچنین می‌توانید pathهای متفاوتی را بر روی یک یا چند volume_name تعریف کنید. 
+
+```yaml
+volume_mounts:
+- mount_path: path_1
+  sub_path: sub_path_1
+  volume_name: volume_name_1
+- mount_path: path_2
+  sub_path: sub_path_2
+  volume_name: volume_name_1
+```
 یا برای یک managed-service می‌توانید بسته به نوع آن از parameter مربوط به volume استفاده کنید:
 
 ```yaml title="managed_svc_deployment.yml"
