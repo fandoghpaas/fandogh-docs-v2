@@ -58,7 +58,8 @@ volume_mounts:
 - mount_path: /image
   volume_name: vol2
 ```
-در نظر داشته باشید path های متفاوت را به شکل زیر قرار دهید. 
+شما همچنین می‌توانید pathهای متفاوتی را بر روی یک یا چند volume_name تعریف کنید. 
+
 ```yaml
 volume_mounts:
 - mount_path: path_1
@@ -66,7 +67,7 @@ volume_mounts:
   volume_name: volume_name_1
 - mount_path: path_2
   sub_path: sub_path_2
-  volume_name: volume_name_2
+  volume_name: volume_name_1
 ```
 یا برای یک managed-service می‌توانید بسته به نوع آن از parameter مربوط به volume استفاده کنید:
 
